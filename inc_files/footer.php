@@ -16,7 +16,7 @@
             <div class="col-lg-4">
               <div class="cs_footer_item cs_pt_20 cs_pb_20">
                 <div class="cs_text_widget">
-                  <p>I've been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone</p>
+                  <p>TBL Industrial & Engineering Exports Pvt Ltd started off as Jainex Industrial as a 50-50 partnership between the Jainex group and LMG Group registered in Mumbai with operational headquarters in Kolkata.</p>
                 </div>
                 <div class="cs_social_btns d-flex flex-wrap cs_column_gap_15 cs_row_gap_15 cs_transition_5">
                   <a href="#" class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
