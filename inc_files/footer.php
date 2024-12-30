@@ -8,7 +8,7 @@
           <div class="cs_footer_logo wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s"><img src="assets/img/logo.svg" alt="Logo"></div>
           <div class="cs_footer_contact_info">
             <h3 class="text-accent fw-normal cs_mb_4 cs_fs_16 cs_lh_lg">Send Email</h3>
-            <h2 class="text-white fw-medium m-0 cs_fs_22"><a href="mailto:bizmax@laralink.com">tbl@tblindustrial.com</a></h2>
+            <h2 class="text-white fw-medium m-0 cs_fs_22"><a href="mailto:tbl@tblindustrial.com">tbl@tblindustrial.com</a></h2>
           </div>
         </div>
         <div class="cs_footer_main cs_pt_30 cs_pb_30">
@@ -18,27 +18,23 @@
                 <div class="cs_text_widget">
                   <p>TBL Industrial & Engineering Exports Pvt Ltd started off as Jainex Industrial as a 50-50 partnership between the Jainex group and LMG Group registered in Mumbai with operational headquarters in Kolkata.</p>
                 </div>
-                <div class="cs_social_btns d-flex flex-wrap cs_column_gap_15 cs_row_gap_15 cs_transition_5">
+                <!-- <div class="cs_social_btns d-flex flex-wrap cs_column_gap_15 cs_row_gap_15 cs_transition_5">
                   <a href="#" class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
                   <a href="#" class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i class="fa-brands fa-twitter"></i></a>
                   <a href="#" class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i class="fa-brands fa-linkedin-in"></i></a>
                   <a href="#" class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i class="fa-brands fa-dribbble"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="col-lg-4 offset-lg-1">
               <div class="cs_footer_item cs_pt_20 cs_pb_20">
                 <h2 class="cs_widget_title text-white cs_fs_22 cs_mb_22">Explore</h2>
                 <ul class="cs_menu_widget text-uppercase">
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="service.html">Services</a></li>
-                  <li><a href="#">Support </a></li>
-                  <li><a href="pricing.html">Pricing Page</a></li>
-                  <li><a href="portfolio.html">New Projects</a></li>
-                  <li><a href="blog-list-with-sidebar.html">Blog</a></li>
-                  <li><a href="">Privacy Policy</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="index.php">Home</a></li>
+                  <li><a href="about.php">About Us</a></li>
+                  <li><a href="service.html">Products</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="contact.php">Contact Us</a></li>
                 </ul>
               </div>
             </div>
