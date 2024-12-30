@@ -9,7 +9,7 @@
     <!-- Favicon Icon -->
     <link rel="icon" href="assets/img/favicon.png">
     <!-- Site Title -->
-    <title>Bizmax - Corporate And Consulting Business Template</title>
+    <title>About Us</title>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css">
@@ -28,115 +28,7 @@
       </div>
     </div>
     <!-- Start Header Section -->
-    <header class="cs_site_header cs_style_1 cs_type_1 cs_sticky_header cs_site_header_full_width">
-      <div class="cs_top_header">
-        <div class="container">
-          <div class="cs_top_header_in">
-            <div class="cs_top_header_left">
-              <ul class="cs_top_nav d-flex flex-wrap align-items-center cs_fs_12 text-white m-0 p-0">
-                <li><b class="fw-medium text-white">Address:</b> 3517 W. Gray St. Utica, Pennsylvania 57867</li>
-                <li><a href="mailto:info@company.com">info@company.com</a></li>
-              </ul>
-            </div>
-            <div class="cs_top_header_right">
-              <ul class="cs_top_nav d-flex flex-wrap align-items-center cs_fs_12 text-white m-0 p-0">
-                <li><a href="">Help</a></li>
-                <li><a href="">Support</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="cs_main_header">
-        <div class="container">
-          <div class="cs_main_header_in">
-            <div class="cs_main_header_left">
-              <a class="cs_site_branding" href="index.html">
-                <img src="assets/img/logo.svg" alt="Logo">
-              </a>
-              <div class="cs_nav cs_primary_font fw-medium">
-                <ul class="cs_nav_list fw-medium text-uppercase">
-                  <li class="menu-item-has-children">
-                    <a href="index.html">Home</a>
-                    <ul>
-                      <li><a href="index.html">Business</a></li>
-                      <li><a href="corporate.html">Corporate</a></li>
-                      <li><a href="finance.html">Financial institute</a></li>
-                      <li><a href="insurance.html">Insurance Company</a></li>
-                      <li><a href="consulting.html">Consulting Agency</a></li>
-                      <li><a href="business-with-ecommerce.html">Business With E-Commerce</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="about.html">About</a></li>
-                  <li class="menu-item-has-children">
-                    <a href="#">Pages</a>
-                    <ul>
-                      <li><a href="project-details.html">Project Details</a></li>
-                      <li><a href="services-details.html">Service Details</a></li>
-                      <li><a href="team.html">Team </a></li>
-                      <li><a href="team-details.html">Team Member</a></li>
-                      <li><a href="pricing.html">Pricing Page</a></li>
-                      <li><a href="shop.html">Our Store</a></li>
-                      <li><a href="shop-product-details.html">Product Details</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="service.html">Services</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li class="menu-item-has-children">
-                    <a href="blog">Blog</a>
-                    <ul>
-                      <li><a href="blog-grid.html">Blog Grid</a></li>
-                      <li><a href="blog-list-with-sidebar.html">Blog List With Sidebar</a></li>
-                      <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="cs_main_header_right">
-              <div class="cs_toolbox">
-                <div class="cs_header_search_wrap position-relative">
-                  <span class="cs_header_search_btn d-flex">
-                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M24.7628 23.6399L18.3082 17.2884C19.9984 15.452 21.037 13.0234 21.037 10.3509C21.0362 4.63387 16.3273 0 10.5181 0C4.70891 0 0 4.63387 0 10.3509C0 16.0678 4.70891 20.7017 10.5181 20.7017C13.0281 20.7017 15.3301 19.8335 17.1384 18.3902L23.618 24.7667C23.9338 25.0777 24.4463 25.0777 24.7621 24.7667C25.0785 24.4557 25.0785 23.9509 24.7628 23.6399ZM10.5181 19.1092C5.60289 19.1092 1.61836 15.1879 1.61836 10.3509C1.61836 5.51376 5.60289 1.59254 10.5181 1.59254C15.4333 1.59254 19.4178 5.51376 19.4178 10.3509C19.4178 15.1879 15.4333 19.1092 10.5181 19.1092Z" fill="currentColor"/>
-                    </svg>                    
-                  </span>
-                  <form class="cs_header_search_form position-absolute bg-white cs_transition_3 cs_rounded_5 end-0 cs_pt_20 cs_pb_20 cs_pl_20 cs_pr_20">
-                    <input type="text" placeholder="Type your keywork  ...">
-                    <button class="cs_header_search_sumbit_btn">
-                      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M24.7628 23.6399L18.3082 17.2884C19.9984 15.452 21.037 13.0234 21.037 10.3509C21.0362 4.63387 16.3273 0 10.5181 0C4.70891 0 0 4.63387 0 10.3509C0 16.0678 4.70891 20.7017 10.5181 20.7017C13.0281 20.7017 15.3301 19.8335 17.1384 18.3902L23.618 24.7667C23.9338 25.0777 24.4463 25.0777 24.7621 24.7667C25.0785 24.4557 25.0785 23.9509 24.7628 23.6399ZM10.5181 19.1092C5.60289 19.1092 1.61836 15.1879 1.61836 10.3509C1.61836 5.51376 5.60289 1.59254 10.5181 1.59254C15.4333 1.59254 19.4178 5.51376 19.4178 10.3509C19.4178 15.1879 15.4333 19.1092 10.5181 19.1092Z" fill="currentColor"/>
-                        </svg>                        
-                    </button>
-                  </form>
-                </div>
-                <div class="cs_header_contact">
-                  <div class="cs_header_contact_icon text-accent">
-                    <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_81_254)">
-                      <path d="M18.1846 18.6831C18.1846 19.0607 17.8786 19.3667 17.501 19.3667C17.1234 19.3667 16.8174 19.0607 16.8174 18.6831C16.8174 18.3055 17.1234 17.9995 17.501 17.9995C17.8786 17.9995 18.1846 18.3055 18.1846 18.6831Z" fill="currentColor"/>
-                      <path d="M28.9669 19.1887C28.2043 18.4264 26.9696 18.425 26.2069 19.1885L23.9057 21.4892C23.4576 21.9378 22.7657 22.0294 22.2608 21.7065C21.5959 21.282 20.9029 20.7818 20.2015 20.2197C19.9067 19.9837 19.4765 20.0312 19.2404 20.3257C19.0044 20.6205 19.0519 21.0507 19.3467 21.2868C20.0861 21.879 20.8188 22.408 21.5246 22.8588C22.566 23.5242 23.9743 23.3549 24.8726 22.4558L27.1741 20.1551C27.3989 19.93 27.7672 19.9225 28.0022 20.1575L33.4626 25.5697C33.6904 25.7974 33.6901 26.1683 33.4626 26.3961L32.0615 27.7975C30.0521 29.8061 26.8756 30.3396 24.3361 29.0944C13.2881 23.6775 7.80304 13.9181 6.38512 11.0561C5.12742 8.51667 5.64999 5.44317 7.68555 3.40761L9.05487 2.03722C9.28292 1.80944 9.65382 1.80944 9.88159 2.03695L15.2964 7.45176C15.5244 7.6798 15.5247 8.04937 15.2964 8.27741L12.9954 10.5787C12.0963 11.4777 11.927 12.8858 12.5925 13.9267C13.212 14.8965 13.9687 15.9037 14.8414 16.9206C15.0873 17.2068 15.5188 17.24 15.8056 16.994C16.0919 16.7481 16.125 16.3166 15.8791 16.0298C15.0478 15.0615 14.3298 14.1064 13.7444 13.1902C13.4219 12.6858 13.5135 11.9942 13.9623 11.5453L16.2633 9.24432C17.0257 8.48195 17.0259 7.24748 16.2633 6.48511L10.8482 1.07004C10.088 0.310076 8.85006 0.309809 8.08823 1.07031L6.71837 2.44096C4.26812 4.89149 3.64167 8.59731 5.15999 11.6628C6.62625 14.6225 12.2995 24.7154 23.7342 30.322C24.8373 30.8627 26.0344 31.1383 27.2555 31.1383C27.2694 31.1383 27.2833 31.1375 27.2972 31.1372C27.0993 32.8214 25.6641 34.1325 23.9278 34.1325H19.5117C18.218 34.1325 17.0551 33.4136 16.4767 32.2563L15.5648 30.4333C15.4489 30.2015 15.2123 30.0555 14.9533 30.0555C14.6945 30.0555 14.4577 30.2018 14.342 30.4333L12.9148 33.2876L11.4878 30.4333C11.3719 30.2015 11.1353 30.0555 10.8763 30.0555C10.6175 30.0555 10.3807 30.2018 10.265 30.4333L8.83778 33.2876L7.41078 30.4333C7.29489 30.2015 7.0583 30.0555 6.79928 30.0555C6.54053 30.0555 6.30368 30.2018 6.18805 30.4333L4.76079 33.2876L3.33379 30.4333C3.21789 30.2015 2.98131 30.0555 2.72229 30.0555C2.46354 30.0555 2.22668 30.2018 2.11106 30.4333L0.072297 34.5106C-0.0964651 34.8481 0.0402536 35.2588 0.378045 35.4276C0.717171 35.5971 1.12706 35.4583 1.29529 35.1218L2.72229 32.2678L4.14929 35.1218C4.26518 35.3536 4.50177 35.4996 4.76079 35.4996C5.0198 35.4996 5.25639 35.3533 5.37228 35.1218L6.79928 32.2678L8.22628 35.1218C8.34217 35.3536 8.57876 35.4996 8.83778 35.4996C9.0968 35.4996 9.33339 35.3533 9.44928 35.1218L10.8763 32.2678L12.3033 35.1218C12.4192 35.3536 12.6558 35.4996 12.9148 35.4996C13.1738 35.4996 13.4104 35.3533 13.5263 35.1218L14.9535 32.2675L15.2537 32.8678C16.0649 34.4913 17.6965 35.4996 19.5117 35.4996H23.9278C26.4609 35.4996 28.5376 33.5111 28.6801 31.013C30.3435 30.7222 31.846 29.9457 33.0282 28.7641L34.4298 27.3622C35.19 26.6012 35.1898 25.3632 34.4274 24.6006L28.9669 19.1887Z" fill="currentColor"/>
-                      </g>
-                      <defs>
-                      <clipPath id="clip0_81_254">
-                      <rect width="35" height="35" fill="white" transform="translate(0 0.5)"/>
-                      </clipPath>
-                      </defs>
-                    </svg>
-                  </div>
-                  <div class="cs_header_contact_right">
-                    <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Need help?  Call us:</h3>
-                    <h3 class="text-white m-0 cs_fs_13">(+800) 1234 5678 90</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    <?php include("inc_files/header2.php"); ?>
     <!-- End Header Section -->
 
     <!-- Start Page Header -->
@@ -191,11 +83,11 @@
               <div class="cs_section_heading cs_style_1 d-flex align-items-center cs_mb_15">
                 <div class="cs_section_heading_in">
                   <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">About Us</h3>
-                  <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">Get Ready for Success with <span class="text-accent">Bizmax</span> Your Path to Growth.</h2>
-                  <p class="m-0">Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses. Creating visual content, such as logos, brochures, infographics, and other branding materials.</p>
+                  <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">Get Ready for Success with <span class="text-accent">TBL</span> Your Path to Growth.</h2>
+                  <p class="m-0">TBL Industrial & Engineering Exports Pvt Ltd started off as Jainex Industrial as a 50-50 partnership between the Jainex group and LMG Group registered in Mumbai with operational headquarters in Kolkata. The major thrust was exports and imports. TBL was primary focused on hydraulic applications which led to its first tie up with Parker Hannifin, the world leader in Hydraulics, Pneumatics, Filtration products and Seals. The first order was received in March 2002 for export to Bangladesh.</p>
                 </div>
               </div>
-              <div class="cs_progressbar cs_style_1 cs_mb_20">
+              <!-- <div class="cs_progressbar cs_style_1 cs_mb_20">
                 <div class="cs_progressbar_heading d-flex justify-content-between align-items-center cs_mb_8">
                   <h3 class="fw-medium m-0 cs_fs_18">Web development</h3>
                   <p class="cs_fs_14 cs_lh_base m-0">90%</p>
@@ -203,8 +95,8 @@
                 <div class="cs_progress cs_rounded_8 overflow-hidden" data-progress="90">
                   <div class="cs_progress_in bg-accent cs_rounded_8 h-100 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s"></div>
                 </div>
-              </div><!-- .cs_progressbar -->
-              <div class="row cs_mb_15">
+              </div>.cs_progressbar -->
+              <!-- <div class="row cs_mb_15">
                 <div class="col-lg-6">
                   <div class="cs_about-icon-box position-relative cs_mb_25">
                     <span class="position-absolute cs_height_20 cs_width_20 top-0 start-0 cs_mt_5 bg-accent text-white cs_fs_10 d-flex align-items-center justify-content-center cs_rounded_30"><i class="fa-solid fa-angles-right"></i></span>
@@ -219,7 +111,7 @@
                     <p class="m-0">Assistance with HR-related tasks such as recruitment.</p>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <div class="d-flex align-items-center cs_row_gap_20 cs_column_gap_30 cs_column_gap_lg_20 flex-wrap">
                 <a href="contact.html" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
                 <a href="https://www.youtube.com/embed/VStvZjykQ00" class="cs_video_open d-flex align-items-center">
@@ -235,13 +127,13 @@
           </div>
         </div>
       </div>
-      <div class="cs_section_shape-1 position-absolute semi_rotate">
+      <!-- <div class="cs_section_shape-1 position-absolute semi_rotate">
         <svg width="182" height="177" viewBox="0 0 182 177" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M94.4478 96.1115C106.99 105.211 120.6 111.159 132.748 112.86C132.823 112.871 132.894 112.876 132.967 112.886L150.387 27.5688C151.002 24.552 147.98 22.0838 145.148 23.2887L63.8438 57.8735C67.5196 70.1011 78.6592 84.6548 94.4478 96.1115Z" fill="#888888" fill-opacity="0.2"/>
           <path d="M128.155 120.487C115.612 118.057 102.053 111.863 89.5833 102.815C72.3806 90.3334 60.5954 75.0018 56.1891 61.1295L14.8513 78.7143C11.6218 80.0876 11.7968 84.724 15.1212 85.8483L74.9037 106.09C78.4203 107.281 81.3895 109.706 83.2572 112.915L115.015 167.46C116.78 170.492 121.358 169.74 122.061 166.301L131.308 121.013C130.265 120.863 129.215 120.692 128.155 120.487Z" fill="#888888" fill-opacity="0.2"/>
           <path d="M129.41 114.012C116.866 111.583 103.307 105.387 90.8381 96.3405C61.4995 75.0532 47.8833 45.4701 59.84 28.9897C71.7975 12.512 104.146 16.278 133.483 37.5651C143.082 44.5285 151.409 52.7615 157.564 61.3736C158.895 63.2352 158.464 65.8208 156.603 67.1511C154.742 68.4799 152.156 68.0495 150.827 66.1896C145.184 58.2942 137.505 50.7138 128.621 44.2672C103.894 26.326 75.466 21.5559 66.5447 33.8531C57.6235 46.1491 70.9766 71.6938 95.7041 89.6352C108.246 98.7348 121.848 104.686 134.005 106.383C145.234 107.955 153.677 105.705 157.78 100.049C162.059 94.1524 160.568 86.183 158.563 80.5345C157.799 78.3788 158.926 76.0123 161.081 75.2472C163.236 74.4823 165.604 75.6089 166.369 77.7657C170.142 88.3972 169.474 98.04 164.484 104.915C158.497 113.168 147.265 116.603 132.859 114.587C131.719 114.43 130.568 114.237 129.41 114.012Z" fill="#888888" fill-opacity="0.2"/>
         </svg>          
-      </div>
+      </div> -->
     </section>
     <!-- End About Section -->
   
