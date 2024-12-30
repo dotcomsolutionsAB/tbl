@@ -10,7 +10,7 @@
               <div class="cs_nav cs_primary_font fw-medium">
                 <ul class="cs_nav_list fw-medium text-uppercase">
                   <li class="#">
-                    <a href="index.html">Home</a>
+                    <a href="index.php">Home</a>
                     <!-- <ul>
                       <li><a href="index.html">Business</a></li>
                       <li><a href="corporate.html">Corporate</a></li>
@@ -20,7 +20,7 @@
                       <li><a href="business-with-ecommerce.html">Business With E-Commerce</a></li>
                     </ul> -->
                   </li>
-                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="about.php">About Us</a></li>
                   <li class="menu-item-has-children">
                     <a href="#">Products</a>
                     <!-- <ul>
@@ -33,8 +33,8 @@
                       <li><a href="shop-product-details.html">Product Details</a></li>
                     </ul> -->
                   </li>
-                  <li><a href="service.html">Services</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="service.php">Services</a></li>
+                  <li><a href="contact.php">Contact Us</a></li>
                   <!-- <li class="menu-item-has-children">
                     <a href="blog">Blog</a>
                     <ul>
