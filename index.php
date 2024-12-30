@@ -78,8 +78,8 @@
               <div class="cs_section_heading cs_style_1 d-flex align-items-center cs_mb_15">
                 <div class="cs_section_heading_in">
                   <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">About Us</h3>
-                  <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">Get Ready for Success with <span class="text-accent">Bizmax</span> Your Path to Growth.</h2>
-                  <p class="m-0">Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses. Creating visual content, such as logos, brochures, infographics, and other branding materials.</p>
+                  <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">Get Ready for Success with <span class="text-accent">TBL</span> Your Path to Growth.</h2>
+                  <p class="m-0">TBL Industrial & Engineering Exports Pvt Ltd started off as Jainex Industrial as a 50-50 partnership between the Jainex group and LMG Group registered in Mumbai with operational headquarters in Kolkata. The major thrust was exports and imports. TBL was primary focused on hydraulic applications which led to its first tie up with Parker Hannifin, the world leader in Hydraulics, Pneumatics, Filtration products and Seals. The first order was received in March 2002 for export to Bangladesh.</p>
                 </div>
               </div>
               <div class="cs_progressbar cs_style_1 cs_mb_20">
@@ -107,7 +107,7 @@
                   </div>
                 </div>
               </div>
-              <div class="d-flex align-items-center cs_row_gap_20 cs_column_gap_30 cs_column_gap_lg_20 flex-wrap">
+              <!-- <div class="d-flex align-items-center cs_row_gap_20 cs_column_gap_30 cs_column_gap_lg_20 flex-wrap">
                 <a href="contact.html" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
                 <a href="https://www.youtube.com/embed/VStvZjykQ00" class="cs_video_open d-flex align-items-center">
                   <span class="cs_player_btn cs_width_45 cs_height_45 rounded-circle d-flex align-items-center justify-content-center text-white bg-primary position-relative cs_pl_5">
@@ -117,7 +117,7 @@
                   </span>
                   <span class="cs_ml_15">Watch the video</span>               
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
