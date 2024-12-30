@@ -21,19 +21,19 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <div class="cs_preloader cs_accent_color cs_white_bg">
+    <!-- <div class="cs_preloader cs_accent_color cs_white_bg">
       <div class="cs_preloader bg-white d-flex justify-content-center align-items-center">
         <div class="cs_preloader_in">
           <img src="assets/img/favicon.png" alt="Logo">
         </div>
       </div>
-    </div>
+    </div> -->
       <!-- Start Header Section -->
     <?php include("inc_files/header.php"); ?>
       <!-- End Header Section -->
     <!-- Start Hero -->
     <section class="cs_hero cs_style_4 bg-primary position-relative d-flex align-items-center justify-content-center overflow-hidden youtube-bg" data-src="assets/img/hero_video_bg.jpeg">
-      <div id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/embed/I2SeBj6R-mc', containment:'.youtube-bg',autoPlay:true, mute:true, startAt:1, opacity:1, showControls:false, loop:true}"></div>
+      <div id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=d-OoVwyyZXU', containment:'.youtube-bg',autoPlay:true, mute:true, startAt:1, opacity:1, showControls:false, loop:true}"></div>
       <div class="container position-relative cs_zindex_2">
         <div class="cs_hero_text">
           <h1 class="text-white cs_mb_28 cs_fs_60 cs_fs_lg_46">Strategic Solutions for Business Growth Your Path to Success</h1>
