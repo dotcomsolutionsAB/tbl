@@ -469,7 +469,7 @@
     <!-- End Animated Text -->
 
     <!-- Start Our Latest Project -->
-    <!-- <?php include("inc_files/latest_project.php"); ?> -->
+
     <!-- End Our Latest Project -->
 
     <!-- Start Testimonial Section -->
