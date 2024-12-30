@@ -9,7 +9,7 @@
               </a>
               <div class="cs_nav cs_primary_font fw-medium">
                 <ul class="cs_nav_list fw-medium text-uppercase">
-                  <li class="menu-item-has-children">
+                  <li class="#">
                     <a href="index.html">Home</a>
                     <!-- <ul>
                       <li><a href="index.html">Business</a></li>
@@ -34,7 +34,7 @@
                     </ul> -->
                   </li>
                   <li><a href="service.html">Services</a></li>
-                  <li><a href="portfolio.html">Contact Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
                   <!-- <li class="menu-item-has-children">
                     <a href="blog">Blog</a>
                     <ul>
