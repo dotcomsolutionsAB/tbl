@@ -28,6 +28,9 @@
         </div>
       </div>
     </div>
+      <!-- Start Header Section -->
+    <?php include("inc_files/header.php"); ?>
+      <!-- End Header Section -->
     <!-- Start Hero -->
     <section class="cs_hero cs_style_4 bg-primary position-relative d-flex align-items-center justify-content-center overflow-hidden youtube-bg" data-src="assets/img/hero_video_bg.jpeg">
       <div id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/embed/I2SeBj6R-mc', containment:'.youtube-bg',autoPlay:true, mute:true, startAt:1, opacity:1, showControls:false, loop:true}"></div>
