@@ -39,17 +39,17 @@
           <h1 class="text-white cs_mb_28 cs_fs_60 cs_fs_lg_46">Strategic Solutions for Business Growth Your Path to Success</h1>
           <p class="text-white cs_mb_40">Welcome to TBL Industrial & Engineering Exports Pvt. Ltd, your one-stop destination for comprehensive <br>financial insights and top-notch services.</p>
           <div class="cs_hero_btn">
-            <a href="contact.html" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
-            <a href="contact.html" class="cs_btn cs_style_2 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_9 cs_pb_9 overflow-hidden"><span>Learn More</span></a>
+            <a href="contact.php" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
+            <a href="about.php" class="cs_btn cs_style_2 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_9 cs_pb_9 overflow-hidden"><span>Learn More</span></a>
           </div>
         </div>
       </div>
-      <div class="cs_social_btns d-flex flex-wrap cs_column_gap_15 cs_row_gap_15 cs_transition_5">
+      <!-- <div class="cs_social_btns d-flex flex-wrap cs_column_gap_15 cs_row_gap_15 cs_transition_5">
         <a href="#" class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
         <a href="#" class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i class="fa-brands fa-twitter"></i></a>
         <a href="#" class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i class="fa-brands fa-linkedin-in"></i></a>
         <a href="#" class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i class="fa-brands fa-dribbble"></i></a>
-      </div>
+      </div> -->
     </section>
     <!-- End Hero -->
 
