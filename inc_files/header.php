@@ -20,9 +20,9 @@
                       <li><a href="business-with-ecommerce.html">Business With E-Commerce</a></li>
                     </ul> -->
                   </li>
-                  <li><a href="about.html">About</a></li>
+                  <li><a href="about.html">About Us</a></li>
                   <li class="menu-item-has-children">
-                    <a href="#">Pages</a>
+                    <a href="#">Products</a>
                     <!-- <ul>
                       <li><a href="project-details.html">Project Details</a></li>
                       <li><a href="services-details.html">Service Details</a></li>
@@ -34,16 +34,15 @@
                     </ul> -->
                   </li>
                   <li><a href="service.html">Services</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li class="menu-item-has-children">
+                  <li><a href="portfolio.html">Contact Us</a></li>
+                  <!-- <li class="menu-item-has-children">
                     <a href="blog">Blog</a>
-                    <!-- <ul>
+                    <ul>
                       <li><a href="blog-grid.html">Blog Grid</a></li>
                       <li><a href="blog-list-with-sidebar.html">Blog List With Sidebar</a></li>
                       <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul> -->
-                  </li>
-                  <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </li> -->
                 </ul>
               </div>
             </div>
