@@ -82,7 +82,7 @@
                   <p class="m-0">TBL Industrial & Engineering Exports Pvt Ltd started off as Jainex Industrial as a 50-50 partnership between the Jainex group and LMG Group registered in Mumbai with operational headquarters in Kolkata. The major thrust was exports and imports. TBL was primary focused on hydraulic applications which led to its first tie up with Parker Hannifin, the world leader in Hydraulics, Pneumatics, Filtration products and Seals. The first order was received in March 2002 for export to Bangladesh.</p>
                 </div>
               </div>
-              <div class="cs_progressbar cs_style_1 cs_mb_20">
+              <!-- <div class="cs_progressbar cs_style_1 cs_mb_20">
                 <div class="cs_progressbar_heading d-flex justify-content-between align-items-center cs_mb_8">
                   <h3 class="fw-medium m-0 cs_fs_18">Web development</h3>
                   <p class="cs_fs_14 cs_lh_base m-0">90%</p>
@@ -90,8 +90,8 @@
                 <div class="cs_progress cs_rounded_8 overflow-hidden" data-progress="90">
                   <div class="cs_progress_in bg-accent cs_rounded_8 h-100 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s"></div>
                 </div>
-              </div><!-- .cs_progressbar -->
-              <div class="row cs_mb_15">
+              </div>.cs_progressbar -->
+              <!-- <div class="row cs_mb_15">
                 <div class="col-lg-6">
                   <div class="cs_about-icon-box position-relative cs_mb_25">
                     <span class="position-absolute cs_height_20 cs_width_20 top-0 start-0 cs_mt_5 bg-accent text-white cs_fs_10 d-flex align-items-center justify-content-center cs_rounded_30"><i class="fa-solid fa-angles-right"></i></span>
@@ -106,7 +106,7 @@
                     <p class="m-0">Assistance with HR-related tasks such as recruitment.</p>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <div class="d-flex align-items-center cs_row_gap_20 cs_column_gap_30 cs_column_gap_lg_20 flex-wrap">
                 <a href="contact.html" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
                 <a href="https://www.youtube.com/embed/VStvZjykQ00" class="cs_video_open d-flex align-items-center">
