@@ -3,7 +3,7 @@
         <div class="cs_section_heading cs_style_1 text-center cs_mb_60 cs_mb_lg_40">
           <div class="cs_section_heading_in">
             <h3 class="cs_fs_20 text-accent fw-normal cs_lh_base wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"></h3>
-            <h2 class="cs_fs_48 cs_fs_lg_36 m-0">Our<br>Products</h2>
+            <h2 class="cs_fs_48 cs_fs_lg_36 m-0">Our Products</h2>
           </div>
         </div>
       </div>
@@ -13,7 +13,7 @@
             <div class="cs_slide">
               <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25">
                 <div class="cs_service_thumb position-relative cs_rounded_5 cs_mb_25">
-                  <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="assets/img/service_9.jpeg"></div>
+                  <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="assets/img/service_9.jpg"></div>
                 </div>
                 <div class="cs_service_iconbox d-flex align-items-center cs_mb_20">
                   <!-- <div class="cs_service_icon d-flex align-items-center justify-content-center cs_rounded_5 cs_mr_15 cs_transition_4 flex-none">
@@ -30,9 +30,9 @@
                       </defs>
                     </svg>                
                   </div> -->
-                  <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Human Resources <br>Consulting</a></h2>
+                  <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Carbon Brush <br>Technology</a></h2>
                 </div>
-                <p class="cs_mb_20">Our expert consultants work closely with you to develop tailored financial strategies that align with your short-term and long-term aspirations.</p>
+                <p class="cs_mb_20">SCHUNK CARBON TECHNOLOGY - Mechanical, Electrical & Thermal Carbon For Motors And Other Applications</p>
                 <div class="text-primary">
                   <a href="services-details.html" class="cs_post_btn_2 d-inline-flex justify-content-between align-items-center cs_column_gap_10">
                     <span class="cs_post_btn-text">Read More</span>
