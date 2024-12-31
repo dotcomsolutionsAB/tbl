@@ -142,7 +142,7 @@
     </div>
   </section>
   <!-- End Contact Section -->
-  <!-- address -->
+  <!-- Start Address Section -->
   <section class="cs_pt_lg_75 cs_pb_lg_75">
     <div class="">
       <div class="row">
@@ -194,7 +194,7 @@
       </div>
     </div>
   </section>
-  <!-- end address section -->
+  <!-- End Address Section -->
   <!-- Start Google Map -->
   <div class="cs_map">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.3079278559585!2d88.35325567535513!3d22.567583679495247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0276314976b01f%3A0x51566031618c9f67!2sTbl%20Industrial%20%26%20Engineering%20Exports%20Private%20Limited!5e0!3m2!1sen!2sin!4v1735640712344!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
