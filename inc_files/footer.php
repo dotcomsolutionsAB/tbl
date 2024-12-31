@@ -57,7 +57,7 @@
       </div>
       <div class="cs_copyright text-center cs_fs_124 cs_lh_lg cs_pt_36 cs_pb_36">
         <div class="container">
-          <p class="m-0">Copyright © 2025 <a href="index.php">TBL Industrial & Engineering Exports Pvt. Ltd</a>. All Rights Reserved.</p>
+          <p class="m-0">Copyright © 2025 <a href="index.php">TBL Industrial & Engineering Exports Pvt. Ltd</a>. All Rights Reserved. Proudly Powered By Dot Com Solutions.</p>
         </div>
       </div>
     </footer>
