@@ -326,9 +326,9 @@ textarea {
   background-color: transparent;
 }
 .cs_btn.cs_style_2:hover {
-  background-color: #e9a132;
+  background-color: #BE0A0B;
   color: #fff;
-  border-color: #e9a132;
+  border-color: #BE0A0B;
 }
 
 /* End Button Design */
@@ -347,8 +347,8 @@ textarea {
   border: 1px solid #454a53;
 }
 .cs_social_btns a:hover {
-  border-color: #e9a132;
-  background-color: #e9a132;
+  border-color: #BE0A0B;
+  background-color: #BE0A0B;
 }
 
 .form-control {
@@ -373,7 +373,7 @@ textarea {
   height: 56px;
 }
 .form-control-2:focus {
-  border-color: #e9a132;
+  border-color: #BE0A0B;
 }
 
 label {
@@ -574,7 +574,7 @@ label {
   background: transparent !important;
 }
 .cs_accordian.active .cs_accordian_title {
-  color: #e9a132;
+  color: #BE0A0B;
 }
 
 /* End Accordion */
@@ -633,7 +633,7 @@ label {
   content: "";
   height: 18px;
   width: 18px;
-  background-color: #e9a132;
+  background-color: #BE0A0B;
   border-radius: 50%;
   position: absolute;
   right: 0;
