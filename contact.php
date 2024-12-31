@@ -162,33 +162,33 @@
         </style>
         <div class="col-md-12">
           <div class="col-md-4">
-            Mumbai Office
-
+            <h3>Mumbai Office</h3>
+            <br>
             'Nawab Building' 3rd Floor,
             327, Dr. D. N. Road,
-            Mumbai - 400 001
+            <br>Mumbai - 400 001
             India
 
             + 91 9836000409
           </div>
           <div class="col-md-4">
-            Dhaka Office
-
+          <h3>Dhaka Office</h3>
+          <br>
             TBL Industrial and Machinery Solution
-
+          <br>
             BJ Tower, House No. 7C, Flat 10C
             ECB Chattar, Mirpur DOHS Road, Matikata, Cantonment
-
+          <br>
             +8801673430814 / +8801610886800
             dhaka@tblindustrial.com
           </div>
           <div class="col-md-4">
-            Chattagram Office
-
+          <h3>Chattagram Office<h3>
+          <br>
             TBL Industrial and Machinery Solution
-
+            <br>
             B12 Apon Nibash, East Nasirabad
-
+          <br>
             +8801911318104 / +8801713103502
             adnan_tf@hotmail.com
           </div>
