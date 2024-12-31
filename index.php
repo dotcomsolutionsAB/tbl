@@ -85,7 +85,7 @@
     <!-- End Animated Text -->
 
     <!-- Start Testimonial Section -->
-    <?php include("inc_files/home_testimonial.php"); ?>
+    <!-- <?php include("inc_files/home_testimonial.php"); ?> -->
     <!-- End Testimonial Section -->
 
     <!-- Start Team Section -->
