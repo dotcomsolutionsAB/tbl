@@ -23,15 +23,18 @@
                   <li><a href="about.php">About Us</a></li>
                   <li class="menu-item-has-children">
                     <a href="#">Products</a>
-                    <!-- <ul>
-                      <li><a href="project-details.html">Project Details</a></li>
-                      <li><a href="services-details.html">Service Details</a></li>
-                      <li><a href="team.html">Team </a></li>
-                      <li><a href="team-details.html">Team Member</a></li>
-                      <li><a href="pricing.html">Pricing Page</a></li>
-                      <li><a href="shop.html">Our Store</a></li>
-                      <li><a href="shop-product-details.html">Product Details</a></li>
-                    </ul> -->
+                    <ul>
+                      <li><a href="project-details.html">Carbon Brush Technology</a></li>
+                      <li><a href="services-details.html">Pumps For Water, Chemicals, Acids And Process Line</a></li>
+                      <li><a href="team.html">Heat Exchangers, Decanters, Separators</a></li>
+                      <li><a href="team-details.html">Safety & Automation Products</a></li>
+                      <li><a href="pricing.html">Steel Plant Machinery & Equipments</a></li>
+                      <li><a href="shop.html">Material Handling & Conveyor Systems</a></li>
+                      <li><a href="shop-product-details.html">Power Transmission Gear Boxes And Couplings</a></li>
+                      <li><a href="shop-product-details.html">Water & Effluent Treatment Plants</a></li>
+                      <li><a href="shop-product-details.html">Hydraulics Systems & Spares</a></li>
+                      <li><a href="shop-product-details.html">Pipes, Pipe Fittings, Cutting & Bevelling Tools</a></li>
+                    </ul>
                   </li>
                   <li><a href="service.php">Services</a></li>
                   <li><a href="contact.php">Contact Us</a></li>
