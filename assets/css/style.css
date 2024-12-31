@@ -130,7 +130,7 @@ button {
 
 a:hover {
   text-decoration: none;
-  color: #e9a132;
+  color: #BE0A0B;
 }
 
 table {
@@ -218,7 +218,7 @@ textarea {
   border-width: 3px;
   border-style: solid;
   border-color: transparent;
-  border-top-color: #e9a132;
+  border-top-color: #BE0A0B;
   border-radius: 50%;
   position: absolute;
   width: calc(100% + 6px);
@@ -282,7 +282,7 @@ textarea {
           justify-content: center;
   line-height: 1.6em;
   color: #fff;
-  background-color: #e9a132;
+  background-color: #BE0A0B;
   position: relative;
   outline: none;
   border: none;
