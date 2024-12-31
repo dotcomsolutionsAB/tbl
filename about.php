@@ -32,7 +32,7 @@
     <!-- End Header Section -->
 
     <!-- Start Page Header -->
-    <section class="cs_page_header position-relative background-filled d-flex align-items-center justify-content-between" data-src="assets/img/page_header_1.jpeg">
+    <section class="cs_page_header position-relative background-filled d-flex align-items-center justify-content-between" data-src="assets/img/page_header_1.jpg">
       <div class="container position-relative z-index-1">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb text-white cs_fs_18 cs_mb_5">
