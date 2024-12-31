@@ -144,8 +144,21 @@
   <!-- End Contact Section -->
   <!-- address -->
   <section class="cs_pt_lg_75 cs_pb_lg_75">
-    <div class="container">
+    <div class="">
       <div class="row">
+        <style>
+          .col-md-12{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            /* padding: 20px; */
+            gap: 10px;
+          }
+          .col-md-4{
+            padding: 15px;
+          }
+        </style>
         <div class="col-md-12">
           <div class="col-md-4">
             Mumbai Office
