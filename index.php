@@ -64,10 +64,10 @@
     <!-- Animated Text -->
     <div class="cs_moving_wrap background-filled text-uppercase text-white d-flex align-items-center" data-src="assets/img/moving_text_shape.png">
       <div class="cs_moving_text cs_fs_30 cs_fs_lg_26 d-flex align-items-center text-nowrap">
-        <span>* Creative Business & Finance</span>
-        <span>* Business Inspired Template</span>
-        <span>* Innovation Creative Design </span>
-        <span>* Creative Business & Finance</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
       </div>
       <div class="cs_moving_text cs_fs_30 d-flex align-items-center text-nowrap">
         <span>* Creative Business & Finance</span>
