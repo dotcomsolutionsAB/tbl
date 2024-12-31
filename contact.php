@@ -157,6 +157,7 @@
           }
           .col-md-4{
             padding: 25px;
+            width: 30%;
           }
         </style>
         <div class="col-md-12">
