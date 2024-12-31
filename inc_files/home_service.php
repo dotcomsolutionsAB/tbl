@@ -2,8 +2,8 @@
       <div class="container">
         <div class="cs_section_heading cs_style_1 text-center cs_mb_60 cs_mb_lg_40">
           <div class="cs_section_heading_in">
-            <h3 class="cs_fs_20 text-accent fw-normal cs_lh_base wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Our Service List</h3>
-            <h2 class="cs_fs_48 cs_fs_lg_36 m-0">We Provide Various <br>Insurance For Our Clients</h2>
+            <h3 class="cs_fs_20 text-accent fw-normal cs_lh_base wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"></h3>
+            <h2 class="cs_fs_48 cs_fs_lg_36 m-0">Our<br>Products</h2>
           </div>
         </div>
       </div>
@@ -15,7 +15,7 @@
                 <div class="cs_service_thumb position-relative cs_rounded_5 cs_mb_25">
                   <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="assets/img/service_9.jpeg"></div>
                 </div>
-                <div class="cs_service_iconbox d-flex align-items-center cs_mb_20">
+                <!-- <div class="cs_service_iconbox d-flex align-items-center cs_mb_20">
                   <div class="cs_service_icon d-flex align-items-center justify-content-center cs_rounded_5 cs_mr_15 cs_transition_4 flex-none">
                     <svg width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_558_1348)">
@@ -31,7 +31,7 @@
                     </svg>                
                   </div>
                   <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Human Resources <br>Consulting</a></h2>
-                </div>
+                </div> -->
                 <p class="cs_mb_20">Our expert consultants work closely with you to develop tailored financial strategies that align with your short-term and long-term aspirations.</p>
                 <div class="text-primary">
                   <a href="services-details.html" class="cs_post_btn_2 d-inline-flex justify-content-between align-items-center cs_column_gap_10">
