@@ -70,16 +70,16 @@
         <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
       </div>
       <div class="cs_moving_text cs_fs_30 d-flex align-items-center text-nowrap">
-        <span>* Creative Business & Finance</span>
-        <span>* Business Inspired Template</span>
-        <span>* Innovation Creative Design </span>
-        <span>* Creative Business & Finance</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
       </div>
       <div class="cs_moving_text cs_fs_30 d-flex align-items-center text-nowrap">
-        <span>* Creative Business & Finance</span>
-        <span>* Business Inspired Template</span>
-        <span>* Innovation Creative Design </span>
-        <span>* Creative Business & Finance</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
+        <span>TBL Industrial & Engineering Exports Pvt. Ltd</span>
       </div>
     </div>
     <!-- End Animated Text -->
