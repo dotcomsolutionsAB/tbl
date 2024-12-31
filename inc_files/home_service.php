@@ -153,7 +153,7 @@
             <div class="cs_slide">
               <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25">
                 <div class="cs_service_thumb position-relative cs_rounded_5 cs_mb_25">
-                  <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="assets/img/service_9.jpeg"></div>
+                  <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="assets/img/service_13.jpg"></div>
                 </div>
                 <div class="cs_service_iconbox d-flex align-items-center cs_mb_20">
                   <!-- <div class="cs_service_icon d-flex align-items-center justify-content-center cs_rounded_5 cs_mr_15 cs_transition_4 flex-none">
