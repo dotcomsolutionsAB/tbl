@@ -163,7 +163,6 @@
         <div class="col-md-12">
           <div class="col-md-4">
             <h3>Mumbai Office</h3>
-            <br>
             'Nawab Building' 3rd Floor,
             327, Dr. D. N. Road,
             <br>Mumbai - 400 001
@@ -173,7 +172,6 @@
           </div>
           <div class="col-md-4">
           <h3>Dhaka Office</h3>
-          <br>
             TBL Industrial and Machinery Solution
           <br>
             BJ Tower, House No. 7C, Flat 10C
@@ -184,7 +182,6 @@
           </div>
           <div class="col-md-4">
           <h3>Chattagram Office</h3>
-          <br>
             TBL Industrial and Machinery Solution
             <br>
             B12 Apon Nibash, East Nasirabad
