@@ -102,7 +102,7 @@
                       </defs>
                     </svg>                                                       
                   </div> -->
-                  <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Heat Exchangers, Decanters, <br>Separators</a></h2>
+                  <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Heat Exchangers, Decanters, Separators</a></h2>
                 </div>
                 <p class="cs_mb_20">Plate Heat Exchangers, Decanters, Separators, Brazed Heat Exchangers, Tubular Heat Exchangers</p>
                 <div class="text-primary">
