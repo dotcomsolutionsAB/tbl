@@ -110,7 +110,7 @@
               </div>
               <div>
                 <p class="text-accent cs_mb_7">Have Any Question?</p>
-                <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">+ 070 4531 9507 </h2>
+                <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">+91 9836000409</h2>
               </div>
             </div>
             <div class="d-flex align-items-center cs_mb_30">
@@ -121,7 +121,7 @@
               </div>
               <div>
                 <p class="text-accent cs_mb_7">Send Email</p>
-                <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">bizmax@laralink.com</h2>
+                <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">tbl@tblindustrial.com</h2>
               </div>
             </div>
             <div class="d-flex align-items-center">
@@ -133,7 +133,7 @@
               </div>
               <div>
                 <p class="text-accent cs_mb_7">Address</p>
-                <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">Yewtree Cottage, Kings Pyon, HR4 8PZ</h2>
+                <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">14, Chittaranjan Avenue Kolkata - 700 072, W.B. India</h2>
               </div>
             </div>
           </div>
