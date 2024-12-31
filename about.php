@@ -37,7 +37,7 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb text-white cs_fs_18 cs_mb_5">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active">About</li>
+            <li class="breadcrumb-item active">About Us</li>
           </ol>
         </nav>
         <h1 class="cs_fs_48 cs_fs_lg_36 text-white m-0">About Us</h1>
