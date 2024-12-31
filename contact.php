@@ -156,7 +156,7 @@
             gap: 10px;
           }
           .col-md-4{
-            padding: 15px;
+            padding: 25px;
           }
         </style>
         <div class="col-md-12">
