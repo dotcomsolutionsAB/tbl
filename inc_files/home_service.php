@@ -46,10 +46,10 @@
             <div class="cs_slide">
               <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25">
                 <div class="cs_service_thumb position-relative cs_rounded_5 cs_mb_25">
-                  <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="assets/img/service_10.jpeg"></div>
+                  <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="assets/img/service_10.jpg"></div>
                 </div>
                 <div class="cs_service_iconbox d-flex align-items-center cs_mb_20">
-                  <div class="cs_service_icon d-flex align-items-center justify-content-center cs_rounded_5 cs_mr_15 cs_transition_4 flex-none">
+                  <!-- <div class="cs_service_icon d-flex align-items-center justify-content-center cs_rounded_5 cs_mr_15 cs_transition_4 flex-none">
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_516_334)">
                       <path d="M34.375 39.2187V34.5312C34.375 34.0997 34.0253 33.75 33.5937 33.75C33.1622 33.75 32.8125 34.0997 32.8125 34.5312V38.4375H28.9062C28.4747 38.4375 28.125 38.7872 28.125 39.2187C28.125 39.6503 28.4747 40 28.9062 40H33.5937C34.0253 40 34.375 39.6503 34.375 39.2187Z" fill="white"/>
@@ -65,10 +65,10 @@
                       </clipPath>
                       </defs>
                     </svg>                
-                  </div>
-                  <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Strategy <br>Consulting</a></h2>
+                  </div> -->
+                  <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Pumps For Water, Chemicals, <br>Acids And Process Line</a></h2>
                 </div>
-                <p class="cs_mb_20">Our expert consultants work closely with you to develop tailored financial strategies that align with your short-term and long-term aspirations.</p>
+                <p class="cs_mb_20">Centrifugal Pumps, Rotary Lobe Pumps, Butterfly Valves, Fittings, Pipings ; Tank Cleaning Equipment</p>
                 <div class="text-primary">
                   <a href="services-details.html" class="cs_post_btn_2 d-inline-flex justify-content-between align-items-center cs_column_gap_10">
                     <span class="cs_post_btn-text">Read More</span>
