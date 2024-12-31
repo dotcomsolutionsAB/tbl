@@ -4,7 +4,7 @@
           <div class="col-lg-6 cs_mb_lg_55">
             <div class="cs_experience cs_style_1 position-relative">
               <div class="cs_experience_thumb">
-                <img src="assets/img/experience_img.jpeg" alt="Thumb" class="position-relative cs_zindex_3 cs_rounded_15">
+                <img src="assets/img/experience_img.jpg" alt="Thumb" class="position-relative cs_zindex_3 cs_rounded_15">
                 <div class="cs_experience_shape"><img src="assets/img/experience_shape_1.png" alt="Shape" class="moving_x"></div>
               </div>
               <div class="cs_experience_box background-filled text-center bg-white cs_rounded_10 position-absolute bottom-0 end-0 cs_zindex_3 d-flex flex-column justify-content-center align-items-center" data-src="assets/img/experience_bg.jpg">
