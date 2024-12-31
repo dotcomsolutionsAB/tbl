@@ -36,7 +36,11 @@
                       <li><a href="shop-product-details.html">Pipes, Pipe Fittings, Cutting & Bevelling Tools</a></li>
                     </ul>
                   </li>
-                  <li><a href="service.php">Services</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Services</a>
+                    <ul>
+                      <li><a href="project-details.html">Hydraulics Servicing & Solutions Center</a></li>
+                      <li><a href="services-details.html">EOT Cranes</a></li>
                   <li><a href="contact.php">Contact Us</a></li>
                   <!-- <li class="menu-item-has-children">
                     <a href="blog">Blog</a>
