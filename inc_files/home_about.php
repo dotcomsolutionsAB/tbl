@@ -7,7 +7,7 @@
                 <img src="assets/img/experience_img.jpg" alt="Thumb" class="position-relative cs_zindex_3 cs_rounded_15">
                 <div class="cs_experience_shape"><img src="assets/img/experience_shape_1.png" alt="Shape" class="moving_x"></div>
               </div>
-              <div class="cs_experience_box background-filled text-center bg-white cs_rounded_10 position-absolute bottom-0 end-0 cs_zindex_3 d-flex flex-column justify-content-center align-items-center" data-src="assets/img/experience_bg.jpg">
+              <div class="cs_experience_box background-filled text-center bg-white cs_rounded_10 position-absolute bottom-0 end-0 cs_zindex_3 d-flex flex-column justify-content-center align-items-center" data-src="assets/img/experience_bg.jpeg">
                 <img src="assets/img/experience_icon.svg" alt="Icon" class="cs_mb_5">
                 <h3 class="text-white cs_fs_60 cs_fs_lg_46 fw-bold lh_1 mb-0 d-flex justify-content-between">
                   <span data-count-to="40" class="odometer"></span>
