@@ -5,7 +5,7 @@
             <h3 class="text-accent fw-normal cs_mb_4 cs_fs_16 cs_lh_lg">Have Any Question?</h3>
             <h2 class="text-white fw-medium m-0 cs_fs_22">+91 9836000409</h2>
           </div>
-          <div class="cs_footer_logo wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s"><img src="assets/img/logo.svg" alt="Logo"></div>
+          <div class="cs_footer_logo wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s"><img src="assets/img/logo.png" alt="Logo"></div>
           <div class="cs_footer_contact_info">
             <h3 class="text-accent fw-normal cs_mb_4 cs_fs_16 cs_lh_lg">Send Email</h3>
             <h2 class="text-white fw-medium m-0 cs_fs_22"><a href="mailto:tbl@tblindustrial.com">tbl@tblindustrial.com</a></h2>

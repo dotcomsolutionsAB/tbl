@@ -23,7 +23,7 @@
           <div class="cs_main_header_in">
             <div class="cs_main_header_left">
               <a class="cs_site_branding" href="index.html">
-                <img src="assets/img/logo.svg" alt="Logo">
+                <img src="assets/img/logo.png" alt="Logo">
               </a>
               <div class="cs_nav cs_primary_font fw-medium">
                 <ul class="cs_nav_list fw-medium text-uppercase">
