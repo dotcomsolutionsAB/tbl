@@ -168,7 +168,7 @@
             327, Dr. D. N. Road,
             <br>Mumbai - 400 001
             India
-
+            <br>
             + 91 9836000409
           </div>
           <div class="col-md-4">
@@ -183,7 +183,7 @@
             dhaka@tblindustrial.com
           </div>
           <div class="col-md-4">
-          <h3>Chattagram Office<h3>
+          <h3>Chattagram Office</h3>
           <br>
             TBL Industrial and Machinery Solution
             <br>
