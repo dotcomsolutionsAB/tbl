@@ -206,9 +206,9 @@
                       </defs>
                     </svg>                
                   </div>
-                  <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Strategy <br>Consulting</a></h2>
+                  <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Material Handling & Conveyor Systems</a></h2>
                 </div>
-                <p class="cs_mb_20">Our expert consultants work closely with you to develop tailored financial strategies that align with your short-term and long-term aspirations.</p>
+                <p class="cs_mb_20">Conveyor Products, Belt/Chain Bucket Elevators, Hoist Chains, Lifting & Lashing Chains, Drag Chain Conveyors & Apron Feeders.</p>
                 <div class="text-primary">
                   <a href="services-details.html" class="cs_post_btn_2 d-inline-flex justify-content-between align-items-center cs_column_gap_10">
                     <span class="cs_post_btn-text">Read More</span>
