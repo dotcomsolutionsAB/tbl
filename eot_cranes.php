@@ -37,10 +37,10 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb text-white cs_fs_18 cs_mb_5">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active">Hydraulics Servicing & Solutions Center</li>
+            <li class="breadcrumb-item active">EOT Cranes</li>
           </ol>
         </nav>
-        <h1 class="cs_fs_48 cs_fs_lg_36 text-white m-0">Hydraulics Servicing & Solutions Center</h1>
+        <h1 class="cs_fs_48 cs_fs_lg_36 text-white m-0">EOT Cranes</h1>
       </div>
       <div class="position-absolute end-0 bottom-0">
         <svg width="660" height="497" viewBox="0 0 660 497" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -106,7 +106,7 @@
     }
   </style>
   <div class="content-section">
-    <h1>State-of-the-Art EOT Cranes</h1>
+    <h1>EOT Cranes</h1>
   <p>
     We have supplied over <b>40 state-of-the-art EOT cranes</b> ranging from 5 to 50 tons for production and maintenance applications. These cranes have been supplied both directly and through DEMAG cranes to some of the big steel mills and power projects in <b>Bangladesh</b> and <b>India</b>.
   </p>
