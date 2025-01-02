@@ -40,7 +40,7 @@
                     <a href="#">Services</a>
                     <ul>
                       <li><a href="hydraulics_servicing_solutions_center.php">Hydraulics Servicing & Solutions Center</a></li>
-                      <li><a href="services-details.html">EOT Cranes</a></li>
+                      <li><a href="eot_cranes.php">EOT Cranes</a></li>
                     </ul>
                   <li><a href="contact.php">Contact Us</a></li>
                   <!-- <li class="menu-item-has-children">
