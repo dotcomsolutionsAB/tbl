@@ -32,8 +32,6 @@
                 <ul class="cs_menu_widget text-uppercase">
                   <li><a href="index.php">Home</a></li>
                   <li><a href="about.php">About Us</a></li>
-                  <li><a href="service.html">Products</a></li>
-                  <li><a href="#">Services</a></li>
                   <li><a href="contact.php">Contact Us</a></li>
                 </ul>
               </div>
