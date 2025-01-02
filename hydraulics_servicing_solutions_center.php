@@ -60,7 +60,6 @@
     <!-- Start Content Section -->
     <style>
     .content-section {
-      text-align: center; /* Centers the content horizontally */
       padding: 30px; /* Adds padding inside the section */
       margin: 50px auto; /* Adds margin above and below the section */
       max-width: 1000px; /* Sets a maximum width for the section */
