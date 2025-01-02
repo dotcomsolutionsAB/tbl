@@ -66,6 +66,9 @@
     <!-- <?php include("inc_files/about_service.php"); ?> -->
     <!-- End Service Section -->
 
+    <!-- Start About Content Section -->
+    <?php include("inc_files/about_content.php"); ?>
+    <!-- End About Content  -->
     <!-- Start Team Section -->
     <!-- <?php include("inc_files/about_team.php"); ?> -->
     <!-- End Team Section -->
