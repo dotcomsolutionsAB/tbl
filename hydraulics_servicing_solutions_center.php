@@ -63,7 +63,7 @@
       text-align: center; /* Centers the content horizontally */
       padding: 30px; /* Adds padding inside the section */
       margin: 50px auto; /* Adds margin above and below the section */
-      max-width: 900px; /* Sets a maximum width for the section */
+      max-width: 1200px; /* Sets a maximum width for the section */
       background-color: #f9f9f9; /* Light background for the section */
       border-radius: 8px; /* Adds rounded corners */
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
