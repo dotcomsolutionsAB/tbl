@@ -35,7 +35,7 @@
     <style>
     .content-section {
       text-align: center; /* Centers the content horizontally */
-      padding: 20px; /* Adds padding around the section */
+      padding: 100px; /* Adds padding around the section */
       margin: 20px auto; /* Centers the section on the page */
       max-width: 600px; /* Sets a maximum width for the section */
       background-color: #f9f9f9; /* Light background for the section */
