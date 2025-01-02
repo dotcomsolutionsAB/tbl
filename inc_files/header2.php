@@ -38,7 +38,13 @@
                       <li><a href="business-with-ecommerce.html">Business With E-Commerce</a></li>
                     </ul> -->
                   </li>
-                  <li><a href="about.php">About Us</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="#">About Us</a>
+                    <ul>
+                      <li><a href="about.php">About Us</a></li>
+                      <li><a href="why_work_with_us.php">Why Work With Us</a></li>
+                    </ul>
+                  </li>
                   <li class="menu-item-has-children">
                     <a href="#">Products</a>
                     <ul>
@@ -60,6 +66,7 @@
                       <li><a href="hydraulics_servicing_solutions_center.php">Hydraulics Servicing & Solutions Center</a></li>
                       <li><a href="eot_cranes.php">EOT Cranes</a></li>
                     </ul>
+                  </li>
                   <li><a href="contact.php">Contact Us</a></li>
                   <!-- <li class="menu-item-has-children">
                     <a href="blog">Blog</a>
