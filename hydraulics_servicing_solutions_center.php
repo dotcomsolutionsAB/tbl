@@ -35,8 +35,8 @@
     <style>
     .content-section {
       text-align: center; /* Centers the content horizontally */
-      padding: 20px; /* Adds padding around the section */
-      margin: 120px auto; /* Centers the section on the page */
+      padding: 30px; /* Adds padding inside the section */
+      margin: 50px auto; /* Adds margin above and below the section */
       max-width: 600px; /* Sets a maximum width for the section */
       background-color: #f9f9f9; /* Light background for the section */
       border-radius: 8px; /* Adds rounded corners */
@@ -46,13 +46,13 @@
     .content-section img {
       max-width: 100%; /* Ensures the image scales within the section */
       height: auto; /* Maintains the aspect ratio */
-      margin-bottom: 15px; /* Adds spacing below the image */
+      margin-bottom: 20px; /* Adds spacing below the image */
     }
 
     .content-section h1 {
       font-size: 24px; /* Sets font size for the heading */
       color: #333; /* Darker color for text */
-      margin-bottom: 10px; /* Adds spacing below the heading */
+      margin-bottom: 15px; /* Adds spacing below the heading */
     }
 
     .content-section p {
