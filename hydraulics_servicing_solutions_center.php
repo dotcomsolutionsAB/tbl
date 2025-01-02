@@ -86,14 +86,71 @@
       color: #555; /* Slightly lighter text color */
       line-height: 1.6; /* Improves readability */
     }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    ul {
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    b {
+      color: #000;
+    }
   </style>
   <div class="content-section">
-    <img src="TBL_Creative_Logo.png" alt="TBL Creative Logo">
-    <h1>TBL Creative</h1>
-    <p>
-      TBL Creative is a platform that combines design and creativity to deliver unique branding solutions.
-      Explore our projects to see how we bring ideas to life with passion and innovation.
-    </p>
+    <img src="assets/img/hydraulic_logo.jpg" alt="TBL Creative Logo">
+    <h1>Introduction</h1>
+  <p>
+    We would like to introduce ourselves as one of the most effective houses to provide the services, maintenance & solutions along with design & development, manufacture, supplies, installation & commissioning of <b>Hydraulic Systems</b>, <b>Actuators</b>, etc., to maintain your equipment suitably for steady productions. 
+  </p>
+  <p>
+    We have the most competent workforce to perform under the guidance of the following experienced personalities.
+  </p>
+  <p>
+    In view of the same, we would request you to depend on us for such services so that you can concentrate more on production & the quality of your products.
+  </p>
+
+  <h2>Partners</h2>
+  <ul>
+    <li>
+      <b>Mr. S.K. Mitra:</b> Having <b>40 years of experience</b> in the Hydraulic field & Special Purpose Machines. Worked with renowned manufacturers like Rexroth, Vickers, Usha Telehoist, etc., and for the last 20 years has had his own manufacturing unit for Hydraulic Systems, Cylinders & SPMs.
+    </li>
+    <li>
+      <b>Mr. T.M. Faizullabhoy:</b> Having <b>35 years of experience</b> in dealing with different makes/types of Hydraulic Elements & Accessories, with extensive knowledge of various products & applications. He also has a business setup in Bangladesh (both Dhaka & Chittagong) for the past two decades.
+    </li>
+  </ul>
+
+  <h2>Services We Provide</h2>
+  <ul>
+    <li><b>Inspection</b> of Hydraulic systems and preventive & diagnostic prescriptions for desired servicing of Hydraulic systems & components.</li>
+    <li><b>Servicing</b> of Hydraulic systems & their components.</li>
+    <li><b>Reconditioning/Repairing</b> of Actuators, systems, and components like jacks, pullers, valves, motors, pumps, hydraulic tools, or components of any make.</li>
+    <li>Routine check-up of systems & actuators.</li>
+    <li><b>Training</b> of Engineers & Technicians to maintain the systems—both in-house & at our works.</li>
+    <li><b>Annual Maintenance Contract</b> of Hydraulic systems.</li>
+    <li>Any other services or solutions on Hydraulics required by the industry.</li>
+    <li><b>Hydraulic Oil Cleaning</b> to the desired NAS class to reuse the oil of the Hydraulic system.</li>
+    <li>
+      <b>Piping, Flushing, Pickling, Degreasing, Passivating</b> of various Hydraulic, Lubrication, & Degreasing systems of the plant.
+    </li>
+  </ul>
   </div>
     <!-- End Content Section -->
     <!-- Start Footer -->
