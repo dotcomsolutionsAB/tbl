@@ -63,7 +63,7 @@
       text-align: center; /* Centers the content horizontally */
       padding: 30px; /* Adds padding inside the section */
       margin: 50px auto; /* Adds margin above and below the section */
-      max-width: 1200px; /* Sets a maximum width for the section */
+      max-width: 1400px; /* Sets a maximum width for the section */
       background-color: #f9f9f9; /* Light background for the section */
       border-radius: 8px; /* Adds rounded corners */
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
@@ -85,14 +85,6 @@
       font-size: 16px; /* Sets font size for the paragraph */
       color: #555; /* Slightly lighter text color */
       line-height: 1.6; /* Improves readability */
-    }
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-      padding: 20px;
-      background-color: #f9f9f9;
-      color: #333;
     }
     h1 {
       font-size: 24px;
