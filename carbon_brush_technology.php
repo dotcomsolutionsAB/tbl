@@ -9,7 +9,7 @@
     <!-- Favicon Icon -->
     <link rel="icon" href="assets/img/favicon.png">
     <!-- Site Title -->
-    <title>Home - TBL Industrial & Engineering Exports Pvt. Ltd</title>
+    <title>Carbon Brush Technology</title>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css">
@@ -28,7 +28,7 @@
         </div>
       </div>
     </div> -->
-    
+
       <!-- Start Header Section -->
     <?php include("inc_files/header2.php"); ?>
       <!-- End Header Section -->
