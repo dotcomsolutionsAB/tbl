@@ -720,7 +720,7 @@ label {
 }
 
 .cs_page_header {
-  height: 640px;
+  height: 340px;
   padding: 190px 0 50px;
 }
 .cs_page_header::before {
