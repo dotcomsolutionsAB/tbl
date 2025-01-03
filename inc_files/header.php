@@ -30,7 +30,7 @@
                   <li class="menu-item-has-children">
                     <a href="#">Products</a>
                     <ul>
-                      <li><a href="project-details.html">Carbon Brush Technology</a></li>
+                      <li><a href="carbon_brush_technology.php">Carbon Brush Technology</a></li>
                       <li><a href="services-details.html">Pumps For Water, Chemicals, Acids And Process Line</a></li>
                       <li><a href="team.html">Heat Exchangers, Decanters, Separators</a></li>
                       <li><a href="team-details.html">Safety & Automation Products</a></li>
