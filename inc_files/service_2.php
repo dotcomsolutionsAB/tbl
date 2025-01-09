@@ -19,7 +19,13 @@ if (isset($_GET['category_id'])) {
   <div class="container-fluid">
     <div class="cs_service_slider_2 cs_gap_24">
       <div class="cs_slider_activate">
-      
+      <style>
+          .cs_service.cs_style_1 .cs_service_thumb-in {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+      </style>
       <?php foreach ($brands as $brand): ?>
         <div class="cs_slide">
           <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25">
