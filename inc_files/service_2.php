@@ -14,18 +14,19 @@ if (isset($_GET['category_id'])) {
     exit;
 }
 ?>
-<h3>Brands in Category: <?= htmlspecialchars($brands[0]['category_name'] ?? 'Unknown') ?></h3>
-<section class="cs_pb_140 cs_pb_lg_80">
-  <div class="container-fluid">
-    <div class="cs_service_slider_2 cs_gap_24">
-      <div class="cs_slider_activate">
-      <style>
+<style>
           .cs_service.cs_style_1 .cs_service_thumb-in {
               display: flex;
               justify-content: center;
               align-items: center;
           }
       </style>
+<h3>Brands in Category: <?= htmlspecialchars($brands[0]['category_name'] ?? 'Unknown') ?></h3>
+<section class="cs_pb_140 cs_pb_lg_80">
+  <div class="container-fluid">
+    <div class="cs_service_slider_2 cs_gap_24">
+      <div class="cs_slider_activate">
+      
       <?php foreach ($brands as $brand): ?>
         <div class="cs_slide">
           <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25">
