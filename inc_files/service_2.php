@@ -21,7 +21,7 @@ if (isset($_GET['category_id'])) {
               align-items: center;
           }
       </style>
-<h3>Brands in Category: <?= htmlspecialchars($brands[0]['category_name'] ?? 'Unknown') ?></h3>
+<!-- <h3>Brands in Category: <?= htmlspecialchars($brands[0]['category_name'] ?? 'Unknown') ?></h3> -->
 <section class="cs_pb_140 cs_pb_lg_80">
   <div class="container-fluid">
     <div class="cs_service_slider_2 cs_gap_24">
