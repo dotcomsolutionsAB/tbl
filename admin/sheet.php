@@ -56,6 +56,7 @@
                                 <form method="POST" style="display:inline-block;">
                                     <input type="hidden" name="sheet_id" value="<?= $sheet['id'] ?>">
                                     <button type="submit" name="update_status" class="btn btn-primary" <?= $sheet['status'] == 0 ? 'disabled' : '' ?>>Update Status to 0</button>
+                                    <a href="add_api.php" class="btn btn-warning">Run API</a>
                                 </form>
                             </td>
                         </tr>
