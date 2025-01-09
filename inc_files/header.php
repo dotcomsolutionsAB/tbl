@@ -1,4 +1,4 @@
-<?php include("connection.php"); ?>
+<?php include("../connection.php"); ?>
     <!-- Start Header Section -->
     <header class="cs_site_header cs_style_1 cs_sticky_header cs_site_header_full_width">
       <div class="cs_main_header">
