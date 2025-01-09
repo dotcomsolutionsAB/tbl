@@ -47,7 +47,7 @@
                     ?>
                     <ul>
                         <?php foreach ($categories as $category): ?>
-                            <li><a href="?category_id=<?= $category['id'] ?>"><?= htmlspecialchars($category['name']) ?></a></li>
+                            <li><a href="carbon_brush_technology.php?category_id=<?= $category['id'] ?>"><?= htmlspecialchars($category['name']) ?></a></li>
                         <?php endforeach; ?>
                     </ul>
                     <!-- <ul>
