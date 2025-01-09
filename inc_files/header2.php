@@ -1,3 +1,4 @@
+<?php include("connection.php"); ?>
 <header class="cs_site_header cs_style_1 cs_type_1 cs_sticky_header cs_site_header_full_width">
       <div class="cs_top_header">
         <div class="container">
@@ -47,7 +48,27 @@
                   </li>
                   <li class="menu-item-has-children">
                     <a href="#">Products</a>
+                    <?php 
+                        // Fetch categories
+                        $stmt = $conn->prepare("SELECT id, name FROM categories");
+                        $stmt->execute();
+                        $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+                        // Handle category selection
+                        $categoryDetails = null;
+                        if (isset($_GET['category_id'])) {
+                            $categoryId = intval($_GET['category_id']);
+                            $stmt = $conn->prepare("SELECT * FROM categories WHERE id = :id");
+                            $stmt->execute([':id' => $categoryId]);
+                            $categoryDetails = $stmt->fetch(PDO::FETCH_ASSOC);
+                        }
+                    ?>
                     <ul>
+                        <?php foreach ($categories as $category): ?>
+                            <li><a href="carbon_brush_technology.php?category_id=<?= $category['id'] ?>"><?= htmlspecialchars($category['name']) ?></a></li>
+                        <?php endforeach; ?>
+                    </ul>
+                    <!-- <ul>
                       <li><a href="carbon_brush_technology.php">Carbon Brush Technology</a></li>
                       <li><a href="services-details.html">Pumps For Water, Chemicals, Acids And Process Line</a></li>
                       <li><a href="team.html">Heat Exchangers, Decanters, Separators</a></li>
@@ -58,7 +79,7 @@
                       <li><a href="shop-product-details.html">Water & Effluent Treatment Plants</a></li>
                       <li><a href="shop-product-details.html">Hydraulics Systems & Spares</a></li>
                       <li><a href="shop-product-details.html">Pipes, Pipe Fittings, Cutting & Bevelling Tools</a></li>
-                    </ul>
+                    </ul> -->
                   </li>
                   <li class="menu-item-has-children">
                     <a href="#">Services</a>
