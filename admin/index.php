@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     </head>
     <body>
         <div class="container">
-            <a href="add_api.php">Add API</a>
+            <a href="add_api.php" class="btn btn warning">Run API</a>
         </div>
         <div class="container mt-5">
             <h2>Brands Table</h2>

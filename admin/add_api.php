@@ -1,7 +1,7 @@
 <?php
 // Database configuration
 $host = 'localhost';
-$dbname = 'your_database_name';
+$dbname = 'tbl_';
 $username = 'tbl_';
 $password = 'Jzz4Qp1e5Za1k@can';
 
