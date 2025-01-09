@@ -27,7 +27,7 @@
     </head>
     <body>
         <div class="container">
-            <a href="add_api.php" class="btn btn-warning btn-sm">Run API</a>
+            <a href="sheet.php" class="btn btn-warning btn-sm">Go To Sheet</a>
         </div>
         <div class="container mt-5">
             <h2>Brands Table</h2>
