@@ -1,20 +1,21 @@
-<?php
-// Database configuration
-$host = 'localhost';
-$dbname = 'tbl_';
-$username = 'tbl_';
-$password = 'Jzz4Qp1e5Za1k@can';
+    <?php
+        // Database configuration
+        $host = 'localhost';
+        $dbname = 'tbl_';
+        $username = 'tbl_';
+        $password = 'Jzz4Qp1e5Za1k@can';
 
-// Create a database connection
-$conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        // Create a database connection
+        $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    // Fetch all data from brands table
-    $stmt = $conn->prepare("SELECT b.*, c.name as category_name FROM brands b JOIN categories c ON b.category_id = c.id");
-    $stmt->execute();
-    $brands = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            // Fetch all data from brands table
+            $stmt = $conn->prepare("SELECT b.*, c.name as category_name FROM brands b JOIN categories c ON b.category_id = c.id");
+            $stmt->execute();
+            $brands = $stmt->fetchAll(PDO::FETCH_ASSOC);
     ?>
+
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -26,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     </head>
     <body>
         <div class="container">
-            <a href="add_api.php" class="btn btn warning">Run API</a>
+            <a href="add_api.php" class="btn btn-warning btn-sm">Run API</a>
         </div>
         <div class="container mt-5">
             <h2>Brands Table</h2>
@@ -139,38 +140,38 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     </body>
     </html>
     <?php
-    exit;
-}
+            exit;
+        }
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $action = $_POST['action'] ?? '';
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $action = $_POST['action'] ?? '';
 
-    if ($action === 'delete') {
-        $id = $_POST['id'] ?? 0;
-        $stmt = $conn->prepare("DELETE FROM brands WHERE id = :id");
-        $stmt->execute([':id' => $id]);
-        echo json_encode(["message" => "Brand deleted successfully"]);
-        exit;
-    }
+            if ($action === 'delete') {
+                $id = $_POST['id'] ?? 0;
+                $stmt = $conn->prepare("DELETE FROM brands WHERE id = :id");
+                $stmt->execute([':id' => $id]);
+                echo json_encode(["message" => "Brand deleted successfully"]);
+                exit;
+            }
 
-    if ($action === 'update') {
-        $id = $_POST['id'] ?? 0;
-        $name = $_POST['name'] ?? '';
-        $description = $_POST['description'] ?? '';
-        $url = $_POST['url'] ?? '';
-        $photo = $_POST['photo'] ?? '';
+            if ($action === 'update') {
+                $id = $_POST['id'] ?? 0;
+                $name = $_POST['name'] ?? '';
+                $description = $_POST['description'] ?? '';
+                $url = $_POST['url'] ?? '';
+                $photo = $_POST['photo'] ?? '';
 
-        $stmt = $conn->prepare("UPDATE brands SET name = :name, description = :description, url_link = :url, photos = :photo WHERE id = :id");
-        $stmt->execute([
-            ':id' => $id,
-            ':name' => $name,
-            ':description' => $description,
-            ':url' => $url,
-            ':photo' => $photo
-        ]);
+                $stmt = $conn->prepare("UPDATE brands SET name = :name, description = :description, url_link = :url, photos = :photo WHERE id = :id");
+                $stmt->execute([
+                    ':id' => $id,
+                    ':name' => $name,
+                    ':description' => $description,
+                    ':url' => $url,
+                    ':photo' => $photo
+                ]);
 
-        echo json_encode(["message" => "Brand updated successfully"]);
-        exit;
-    }
-}
-?>
+                echo json_encode(["message" => "Brand updated successfully"]);
+                exit;
+            }
+        }
+    ?>
