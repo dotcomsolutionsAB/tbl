@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table_cdn/datatables.min.css">
     <title>Admin Dashboard</title>
 </head>
 
@@ -118,8 +119,9 @@
                     <ion-icon name="time-outline"></ion-icon>
                     <span class="text">Recent Activities</span>
                 </div>
-                <div>
+                <div class="table_">
                     <!-- Enter any table or section here -->
+                     <?php include("table.php"); ?>
                 </div>
             </div>
 
@@ -130,7 +132,7 @@
                     <ion-icon name="folder-outline"></ion-icon>
                     <span class="text">Content</span>
                 </div>
-                <div>
+                <div class="table_">
                     <!-- Enter any table or section here -->
                 </div>
             </div>
@@ -141,7 +143,7 @@
                     <ion-icon name="analytics-outline"></ion-icon>
                     <span class="text">Analytics</span>
                 </div>
-                <div>
+                <div class="table_">
                     <!-- Enter any table or section here -->
                 </div>
             </div>
@@ -152,7 +154,7 @@
                     <ion-icon name="heart-outline"></ion-icon>
                     <span class="text">Vehicles</span>
                 </div>
-                <div>
+                <div class="table_">
                     <!-- Enter any table or section here -->
                 </div>
             </div>
@@ -163,7 +165,7 @@
                     <ion-icon name="chatbubbles-outline"></ion-icon>
                     <span class="text">Comments</span>
                 </div>
-                <div>
+                <div class="table_">
                     <!-- Enter any table or section here -->
                 </div>
             </div>
@@ -176,6 +178,8 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
+    <!-- for table -->
+    <script src="table_cdn/datatables.min.js"></script>
 </body>
 
 </html>
