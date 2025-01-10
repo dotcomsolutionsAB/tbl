@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="table_cdn/dataTables.css">
+    <link rel="stylesheet" href="table_cdn/Datatables/dataTables.css">
     <title>Admin Dashboard</title>
 </head>
 
@@ -141,7 +141,6 @@
                     </table>
                 </div>
             </div>
-
             
             <!-- Content -->
             <div style="display:none" class="data-table userDetailsTable">
@@ -186,6 +185,7 @@
                     <!-- Enter any table or section here -->
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -197,12 +197,13 @@
     
     
     <!-- for table -->
+    <script src="table_cdn/jquery/jquery-3.7.1.min.js"></script>
+    <script src="table_cdn/Datatables/dataTables.js"></script>
     <script>
         $(document).ready( function () {
             $('#myTable').DataTable();
         } );
     </script>
-    <script src="table_cdn/dataTables.js"></script>
 </body>
 
 </html>
