@@ -121,24 +121,7 @@
                 </div>
                 <div class="table_">
                     <!-- Enter any table or section here -->
-                    <table id="myTable" class="display">
-                        <thead>
-                            <tr>
-                                <th>Column 1</th>
-                                <th>Column 2</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Row 1 Data 1</td>
-                                <td>Row 1 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint rem hic recusandae adipisci in. Eveniet, veritatis sapiente facere repudiandae vel deserunt. Eos porro eveniet unde animi, omnis, asperiores autem minus alias fuga ad laboriosam, assumenda eius vero obcaecati doloremque repellendus! Aspernatur reiciendis dolores cupiditate accusamus veritatis corrupti a culpa facere dolorem error tempore ab labore itaque ea, dolor maxime rerum sunt ipsum ullam. Quos libero blanditiis eos, iusto et explicabo debitis dolorum tempore minima nihil saepe accusamus recusandae natus minus veniam cupiditate hic magni illum commodi vel labore ipsum! Voluptate tenetur architecto expedita voluptatem provident obcaecati. Voluptates laudantium officia beatae, quia illo tenetur quisquam delectus odit placeat! Voluptates, nobis tempora cupiditate esse voluptate aliquid fugiat ipsam neque magnam, corrupti, commodi aut! Cum nemo obcaecati sequi odit sapiente doloremque quo ullam temporibus ducimus eaque rerum ea magnam, harum eius nobis vel enim maiores, autem in, vitae qui rem dolores. Adipisci, est. Fugiat doloremque pariatur perspiciatis magni eaque dignissimos necessitatibus! Corrupti impedit ipsam velit eveniet quisquam quis odio distinctio recusandae dolor quaerat deserunt asperiores ad aperiam earum, voluptatum temporibus omnis laborum sed delectus, magnam sequi quae consequatur! Tempora laudantium error odit autem dolorem architecto dolorum similique nemo. Facilis maxime, eos nam animi numquam ex laborum accusamus dicta veniam hic quaerat fuga obcaecati, laudantium sapiente libero corrupti veritatis odit itaque deleniti magnam expedita tempore. Perferendis optio nobis maxime esse repellendus porro explicabo vitae dolorum quibusdam vero doloremque, dolor saepe reprehenderit ipsa ab magni eius recusandae est doloribus nostrum quam exercitationem adipisci! Porro, harum molestiae. Ab nemo enim labore commodi possimus recusandae error neque suscipit ratione vitae? Dolores earum accusamus ab nobis necessitatibus a pariatur, nisi delectus id molestias? Perferendis sapiente quos repudiandae, totam eaque officiis maxime neque fugiat, beatae dicta quam error optio sunt nesciunt amet nostrum soluta mollitia eligendi magnam tenetur impedit.</p>
                 </div>
             </div>
             
