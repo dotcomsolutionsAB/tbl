@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="table_cdn/Datatables/dataTables.css">
     <title>Admin Dashboard</title>
 </head>
@@ -15,7 +16,7 @@
     <nav id="navv">
         <div class="logo">
             <div class="logo-image">
-                <img src="logo.png" alt="">
+                <img src="logo.png" alt="logo">
             </div>
         </div>
         <div class="menu-items">
