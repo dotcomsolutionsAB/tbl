@@ -12,17 +12,17 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-nav .logo {
+.navv .logo {
     display: flex;
     align-items: center;
 }
 
-nav .logo-image {
+.navv .logo-image {
     width: 45px;
     height: 90px;
 }
 
-nav .logo-image img {
+.navv .logo-image img {
     width: auto;
     height: 60px;
     object-fit: cover;
@@ -31,7 +31,7 @@ nav .logo-image img {
 }
 
 
-nav {
+.navv {
     position: fixed;
     top: 0;
     left: 0;
@@ -41,7 +41,7 @@ nav {
     padding: 10px 0 10px 10px;
 }
 
-nav .menu-items {
+.navv .menu-items {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -49,11 +49,11 @@ nav .menu-items {
     justify-content: space-between;
 }
 
-nav .menu-items li {
+.navv .menu-items li {
     list-style: none;
 }
 
-nav .menu-items li a {
+.navv .menu-items li a {
     display: flex;
     align-items: center;
     height: 50px;
@@ -62,28 +62,28 @@ nav .menu-items li a {
 
 
 
-nav .menu-items li.active a {
+.navv .menu-items li.active a {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     position: relative;
 }
 
-nav .menu-items li a ion-icon {
+.navv .menu-items li a ion-icon {
     color: white;
     font-size: 24px;
     min-width: 45px;
 }
 
-nav .menu-items li a .links {
+.navv .menu-items li a .links {
     font-size: 18px;
     color: white;
 }
 
-nav .menu-items li.active a {
+.navv .menu-items li.active a {
     background-color: #e6f2ff;
 }
 
-nav .menu-items li.active a:before {
+.navv .menu-items li.active a:before {
     content: '';
     position: absolute;
     width: 40px;
@@ -95,7 +95,7 @@ nav .menu-items li.active a:before {
     pointer-events: none;
 }
 
-nav .menu-items li.active a:after {
+.navv .menu-items li.active a:after {
     content: '';
     position: absolute;
     width: 40px;
@@ -108,11 +108,11 @@ nav .menu-items li.active a:after {
 }
 
 
-nav .menu-items li.active a .links {
+.navv .menu-items li.active a .links {
     color: #1891d1;
 }
 
-nav .menu-items li.active a ion-icon {
+.navv .menu-items li.active a ion-icon {
     color: #1891d1;
 }
 
