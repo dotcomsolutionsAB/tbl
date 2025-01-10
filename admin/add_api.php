@@ -103,14 +103,15 @@ foreach ($googleSheets as $sheet) {
         if (!$brand) {
             // Insert new brand
             $stmt = $conn->prepare(
-                "INSERT INTO brands (name, category_id, description, url_link, photos) VALUES (:name, :category_id, :description, :url_link, :photos)"
+                "INSERT INTO brands (name, category_id, description, url_link, photos,image_id) VALUES (:name, :category_id, :description, :url_link, :photos, :image_id)"
             );
             $stmt->execute([
                 ':name' => $name,
                 ':category_id' => $categoryId,
                 ':description' => $description,
                 ':url_link' => $url,
-                ':photos' => $photo
+                ':photos' => $photo,
+                ':image_id'=>0
             ]);
             $addedCount++;
         } else {
