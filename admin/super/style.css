@@ -173,7 +173,12 @@ nav .menu-items li.active a ion-icon {
     color: black;
     margin: 5px;
 }
-
+.divv{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .boxes .box .text {
     font-size: 18px;
     font-weight: 500;
