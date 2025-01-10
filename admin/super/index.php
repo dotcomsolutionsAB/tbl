@@ -70,31 +70,31 @@
 
     <section class="dashboard">
         <div class="container">
-            <?php include("overview.php"); ?>
+            <?php include("inc/overview.php"); ?>
             
             <!-- Recent Activities -->
             <div class="data-table activityTable">
-                <?php include("recent_activities.php"); ?>
+                <?php include("inc/recent_activities.php"); ?>
             </div>
             
             <!-- Content -->
             <div style="display:none" class="data-table userDetailsTable">
-                <?php include("content.php"); ?>
+                <?php include("inc/content.php"); ?>
             </div>
 
             <!-- Analytics -->
             <div style="display:none" class="data-table EditUserRole">
-                <?php include("analytics.php"); ?>
+                <?php include("inc/analytics.php"); ?>
             </div>
 
             <!--  Likes -->
             <div style="display:none" class="data-table VehicleDetails">
-                <?php include("likes.php"); ?>
+                <?php include("inc/likes.php"); ?>
             </div>
 
             <!-- Commands section -->
             <div style="display:none" class="data-table downloads">
-                <?php include("commands.php"); ?>
+                <?php include("inc/commands.php"); ?>
             </div>
 
         </div>
