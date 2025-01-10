@@ -12,82 +12,114 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             display: flex;
             flex-direction: column;
         }
 
         /* Navigation Bar */
         .navbar {
-            background-color: #333;
+            background-color: #2c3e50;
             color: white;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 20px;
+            padding: 15px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
 
         .navbar .logo {
-            font-size: 1.5em;
+            font-size: 1.8em;
             font-weight: bold;
         }
 
         .navbar .menu {
             display: flex;
-            gap: 15px;
+            gap: 20px;
         }
 
         .navbar .menu a {
             color: white;
             text-decoration: none;
             font-size: 1em;
+            transition: color 0.3s ease;
+        }
+
+        .navbar .menu a:hover {
+            color: #18bc9c;
         }
 
         .navbar .menu-toggle {
             display: none;
-            font-size: 1.5em;
+            font-size: 1.8em;
             cursor: pointer;
         }
 
         /* Sidebar */
         .sidebar {
             width: 250px;
-            background-color: #444;
+            background-color: #34495e;
             color: white;
             position: fixed;
             top: 0;
-            left: -250px;
+            /* left: -250px; */
             height: 100%;
             padding: 20px;
-            transition: 0.3s;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        /* Desktop Default: Sidebar Visible */
+    .sidebar {
+        left: 0;
+    }
+        .sidebar.open {
+            left: -250px;
         }
 
-        .sidebar.open {
-            left: 0;
+        .sidebar .close-btn {
+            font-size: 1.5em;
+            color: white;
+            cursor: pointer;
+            text-align: right;
+            margin-bottom: 20px;
         }
 
         .sidebar a {
             color: white;
             text-decoration: none;
             display: block;
-            margin: 10px 0;
+            margin: 15px 0;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
         }
 
         .sidebar a:hover {
-            text-decoration: underline;
+            color: #18bc9c;
+        }
+
+        .toggle-arrow {
+            font-size: 1.8em;
+            cursor: pointer;
+            position: fixed;
+            left: 10px;
+            top: 20px;
+            color: #2c3e50;
+            display: none;
+            z-index: 1000;
+        }
+
+        .toggle-arrow.open {
+            display: block;
         }
 
         .content {
-            margin-left: 0;
-            padding: 20px;
-            transition: 0.3s;
-        }
-
-        .sidebar.open ~ .content {
             margin-left: 250px;
+            padding: 20px;
+            background-color: #ecf0f1;
+            min-height: 100vh;
+            transition: margin-left 0.3s ease;
         }
 
-        /* Responsive Design */
         @media screen and (max-width: 768px) {
             .navbar .menu {
                 display: none;
@@ -98,11 +130,23 @@
             }
 
             .sidebar {
-                width: 200px;
+                left: -250px;
+            }
+
+            .sidebar.open {
+                left: 0;
+            }
+
+            .content {
+                margin-left: 0;
             }
 
             .sidebar.open ~ .content {
-                margin-left: 200px;
+                margin-left: 250px;
+            }
+
+            .toggle-arrow {
+                display: block;
             }
         }
     </style>
@@ -119,7 +163,10 @@
         </div>
     </div>
 
+    <div class="toggle-arrow" id="toggleArrow" onclick="toggleSidebar()">&#x2192;</div>
+
     <div class="sidebar" id="sidebar">
+        <div class="close-btn" onclick="toggleSidebar()">&times;</div>
         <a href="#">Dashboard</a>
         <a href="#">Profile</a>
         <a href="#">Settings</a>
@@ -129,12 +176,19 @@
     <div class="content">
         <h1>Welcome to My Website</h1>
         <p>This is a fully responsive layout with a navigation bar and a sidebar. Resize your browser to see the responsiveness in action.</p>
+        <p>Enhance your UI experience with smooth transitions and elegant styles.</p>
     </div>
 
     <script>
         function toggleSidebar() {
             const sidebar = document.getElementById('sidebar');
+            const toggleArrow = document.getElementById('toggleArrow');
             sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) {
+                toggleArrow.innerHTML = '&#x2190;'; // Left arrow
+            } else {
+                toggleArrow.innerHTML = '&#x2192;'; // Right arrow
+            }
         }
     </script>
 </body>
