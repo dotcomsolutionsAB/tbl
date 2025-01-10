@@ -14,6 +14,11 @@ try {
     exit;
 }
 
+// Logging function
+function logMessage($message) {
+    file_put_contents('process_log.txt', date('Y-m-d H:i:s') . " - $message\n", FILE_APPEND);
+}
+
 // Fetch Google Sheet paths where status == 0
 $stmt = $conn->prepare("SELECT * FROM google_sheet WHERE status = 0");
 $stmt->execute();
@@ -26,26 +31,24 @@ if (!$googleSheets) {
 
 foreach ($googleSheets as $sheet) {
     $spreadsheetPath = $sheet['path'];
+    logMessage("Processing sheet: " . $sheet['name']);
 
     // Check if the path is a URL
     if (filter_var($spreadsheetPath, FILTER_VALIDATE_URL)) {
-        // Fetch the Google Sheets content as CSV
-        $csvContent = file_get_contents($spreadsheetPath);
+        $csvContent = @file_get_contents($spreadsheetPath);
         if ($csvContent === false) {
-            echo json_encode(["message" => "Failed to fetch the sheet: " . $sheet['name']]);
+            logMessage("Failed to fetch the sheet: " . $sheet['name']);
             continue;
         }
 
-        // Parse the CSV content
         $lines = explode(PHP_EOL, $csvContent);
         $data = array_map('str_getcsv', $lines);
     } else {
         if (!file_exists($spreadsheetPath)) {
-            echo json_encode(["message" => "File not found: " . $spreadsheetPath]);
+            logMessage("File not found: " . $spreadsheetPath);
             continue;
         }
 
-        // Open the file and read data
         $file = fopen($spreadsheetPath, 'r');
         $data = [];
         while (($row = fgetcsv($file)) !== false) {
@@ -55,95 +58,98 @@ foreach ($googleSheets as $sheet) {
     }
 
     if (count($data) < 2) { // Ensure there is data beyond the header row
-        echo json_encode(["message" => "No data found in the sheet: " . $sheet['name']]);
+        logMessage("No data found in the sheet: " . $sheet['name']);
         continue;
     }
 
-    // Skip the header row
     $headers = array_shift($data);
 
-    $addedCount = 0;        // Tracks newly added brands
-    $updatedCount = 0;      // Tracks updated brands
-    $incompleteCount = 0;   // Tracks rows with missing essential data
-    $totalRows = count($data); // Total rows excluding header
+    $addedCount = 0;
+    $updatedCount = 0;
+    $incompleteCount = 0;
+    $totalRows = count($data);
 
-    foreach ($data as $row) {
-        // Extract data with null coalescing to handle missing fields
-        $sn = $row[0] ?? null;
-        $categoryName = $row[1] ?? null;
-        $name = $row[2] ?? null;
-        $description = $row[3] ?? null;
-        $url = $row[4] ?? null;
-        $photo = $row[5] ?? null;
+    try {
+        $conn->beginTransaction();
 
-        // Skip rows with missing essential data
-        if (!$categoryName || !$name) {
-            $incompleteCount++;
-            continue;
-        }
+        foreach ($data as $row) {
+            $sn = $row[0] ?? null;
+            $categoryName = trim($row[1] ?? '');
+            $name = trim($row[2] ?? '');
+            $description = trim($row[3] ?? '');
+            $url = trim($row[4] ?? '');
+            $photo = trim($row[5] ?? '');
 
-        // Insert or fetch the category ID
-        $stmt = $conn->prepare("SELECT id FROM categories WHERE name = :name");
-        $stmt->execute([':name' => $categoryName]);
-        $category = $stmt->fetch(PDO::FETCH_ASSOC);
+            if (!$categoryName || !$name) {
+                $incompleteCount++;
+                continue;
+            }
 
-        if (!$category) {
-            $stmt = $conn->prepare("INSERT INTO categories (name) VALUES (:name)");
+            $stmt = $conn->prepare("SELECT id FROM categories WHERE name = :name");
             $stmt->execute([':name' => $categoryName]);
-            $categoryId = $conn->lastInsertId();
-        } else {
-            $categoryId = $category['id'];
+            $category = $stmt->fetch(PDO::FETCH_ASSOC);
+
+            if (!$category) {
+                $stmt = $conn->prepare("INSERT INTO categories (name) VALUES (:name)");
+                $stmt->execute([':name' => $categoryName]);
+                $categoryId = $conn->lastInsertId();
+            } else {
+                $categoryId = $category['id'];
+            }
+
+            $stmt = $conn->prepare("SELECT id FROM brands WHERE name = :name");
+            $stmt->execute([':name' => $name]);
+            $brand = $stmt->fetch(PDO::FETCH_ASSOC);
+
+            if (!$brand) {
+                $stmt = $conn->prepare(
+                    "INSERT INTO brands (name, category_id, description, url_link, photos, image_id) VALUES (:name, :category_id, :description, :url_link, :photos, :image_id)"
+                );
+                $stmt->execute([
+                    ':name' => $name,
+                    ':category_id' => $categoryId,
+                    ':description' => $description,
+                    ':url_link' => $url,
+                    ':photos' => $photo,
+                    ':image_id' => 0
+                ]);
+                $addedCount++;
+            } else {
+                $stmt = $conn->prepare(
+                    "UPDATE brands SET category_id = :category_id, description = :description, url_link = :url_link, photos = :photos WHERE id = :id"
+                );
+                $stmt->execute([
+                    ':id' => $brand['id'],
+                    ':category_id' => $categoryId,
+                    ':description' => $description,
+                    ':url_link' => $url,
+                    ':photos' => $photo
+                ]);
+                $updatedCount++;
+            }
         }
 
-        // Check if the brand already exists
-        $stmt = $conn->prepare("SELECT id FROM brands WHERE name = :name");
-        $stmt->execute([':name' => $name]);
-        $brand = $stmt->fetch(PDO::FETCH_ASSOC);
+        $stmt = $conn->prepare("UPDATE google_sheet SET status = 1 WHERE id = :id");
+        $stmt->execute([':id' => $sheet['id']]);
 
-        if (!$brand) {
-            // Insert new brand
-            $stmt = $conn->prepare(
-                "INSERT INTO brands (name, category_id, description, url_link, photos,image_id) VALUES (:name, :category_id, :description, :url_link, :photos, :image_id)"
-            );
-            $stmt->execute([
-                ':name' => $name,
-                ':category_id' => $categoryId,
-                ':description' => $description,
-                ':url_link' => $url,
-                ':photos' => $photo,
-                ':image_id'=>0
-            ]);
-            $addedCount++;
-        } else {
-            // Update existing brand
-            $stmt = $conn->prepare(
-                "UPDATE brands SET category_id = :category_id, description = :description, url_link = :url_link, photos = :photos WHERE id = :id"
-            );
-            $stmt->execute([
-                ':id' => $brand['id'],
-                ':category_id' => $categoryId,
-                ':description' => $description,
-                ':url_link' => $url,
-                ':photos' => $photo
-            ]);
-            $updatedCount++;
-        }
+        $conn->commit();
+
+        $response = [
+            "message" => "Sheet processed successfully.",
+            "sheet_name" => $sheet['name'],
+            "total_rows" => $totalRows,
+            "added_count" => $addedCount,
+            "updated_count" => $updatedCount,
+            "incomplete_count" => $incompleteCount
+        ];
+
+        logMessage(json_encode($response));
+        echo json_encode($response);
+
+    } catch (Exception $e) {
+        $conn->rollBack();
+        logMessage("Error processing sheet " . $sheet['name'] . ": " . $e->getMessage());
+        echo json_encode(["message" => "Error processing sheet: " . $e->getMessage()]);
     }
-
-    // Update the google_sheet status to 0
-    $stmt = $conn->prepare("UPDATE google_sheet SET status = 1 WHERE id = :id");
-    $stmt->execute([':id' => $sheet['id']]);
-
-    // Generate and output the response for this sheet
-    $response = [
-        "message" => "Sheet processed successfully.",
-        "sheet_name" => $sheet['name'],
-        "total_rows" => $totalRows,
-        "added_count" => $addedCount,
-        "updated_count" => $updatedCount,
-        "incomplete_count" => $incompleteCount
-    ];
-
-    echo json_encode($response);
 }
 ?>
