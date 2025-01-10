@@ -70,160 +70,31 @@
 
     <section class="dashboard">
         <div class="container">
-            <div class="overview">
-                <div class="title">
-                    <ion-icon name="speedometer"></ion-icon>
-                    <span class="text">Dashboard</span>
-                </div>
-                <div class="boxes">
-
-                    <div class="box box1">
-                        <div class="divv">
-                            <ion-icon name="eye-outline"></ion-icon>
-                            <span class="text">Total Views</span>
-                        </div>
-                        <span class="number">18345</span>
-                    </div>
-
-                    <div class="box box2">
-                        <div class="divv">
-                            <ion-icon name="people-outline"></ion-icon>
-                            <span class="text">Active users</span>
-                        </div>
-                        <span class="number">2745</span>
-                    </div>
-
-                    <div class="box box3">
-                        <div class="divv">
-                            <ion-icon name="chatbubbles-outline"></ion-icon>
-                            <span class="text">Total Activities</span>
-                        </div>
-                        <span class="number">1209</span>
-                    </div>
-
-                    <div class="box box4">
-                        <div class="divv">
-                            <ion-icon name="car-sport-outline"></ion-icon>
-                            <span class="text">Insured Vehicles</span>
-                        </div>
-                        <span class="number">123</span>
-                    </div>
-                    
-                </div> 
-            </div>
+            <?php include("overview.php"); ?>
             
-
             <!-- Recent Activities -->
             <div class="data-table activityTable">
-                <div class="title">
-                    <ion-icon name="time-outline"></ion-icon>
-                    <span class="text">Recent Activities</span>
-                </div>
-                <div class="table_">
-                    <!-- Enter any table or section here -->
-                    <table id="myTable" class="display">
-                        <thead>
-                            <tr>
-                                <th>Column 1</th>
-                                <th>Column 2</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Row 1 Data 1</td>
-                                <td>Row 1 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                            <tr>
-                                <td>Row 2 Data 1</td>
-                                <td>Row 2 Data 2</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <?php include("recent_activities.php"); ?>
             </div>
             
             <!-- Content -->
             <div style="display:none" class="data-table userDetailsTable">
-                <div class="title">
-                    <ion-icon name="folder-outline"></ion-icon>
-                    <span class="text">Content</span>
-                </div>
-                <div class="table_">
-                    <!-- Enter any table or section here -->
-                </div>
+                <?php include("content.php"); ?>
             </div>
 
             <!-- Analytics -->
             <div style="display:none" class="data-table EditUserRole">
-                <div class="title">
-                    <ion-icon name="analytics-outline"></ion-icon>
-                    <span class="text">Analytics</span>
-                </div>
-                <div class="table_">
-                    <!-- Enter any table or section here -->
-                </div>
+                <?php include("analytics.php"); ?>
             </div>
 
             <!--  Likes -->
             <div style="display:none" class="data-table VehicleDetails">
-                <div class="title">
-                    <ion-icon name="heart-outline"></ion-icon>
-                    <span class="text">Vehicles</span>
-                </div>
-                <div class="table_">
-                    <!-- Enter any table or section here -->
-                </div>
+                <?php include("likes.php"); ?>
             </div>
 
-            <!-- Downloads section -->
+            <!-- Commands section -->
             <div style="display:none" class="data-table downloads">
-                <div class="title">
-                    <ion-icon name="chatbubbles-outline"></ion-icon>
-                    <span class="text">Comments</span>
-                </div>
-                <div class="table_">
-                    <!-- Enter any table or section here -->
-                </div>
+                <?php include("commands.php"); ?>
             </div>
 
         </div>
