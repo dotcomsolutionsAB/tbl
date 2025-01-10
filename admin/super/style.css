@@ -133,7 +133,7 @@ nav .menu-items li.active a ion-icon {
 .container .title {
     display: flex;
     align-items: center;
-    margin: 60px 0 30px;
+    margin: 20px 0 20px;
 }
 
 .container .title ion-icon {
@@ -163,7 +163,7 @@ nav .menu-items li.active a ion-icon {
     flex-direction: column;
     align-items: center;
     width: calc(100%/4 - 15px);
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
     border-radius: 10px;
     background-color: #9cdef5;
 }
