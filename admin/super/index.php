@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="table_cdn/datatables.min.css">
     <link rel="stylesheet" href="table_cdn/datatables.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.2.1/css/dataTables.dataTables.min.css">
     <title>Admin Dashboard</title>
 </head>
 
@@ -179,6 +180,11 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
+    <script>
+        $(document).ready( function () {
+            $('#myTable').DataTable();
+        } );
+    </script>
     <!-- for table -->
     <script src="table_cdn/datatables.min.js"></script>
     <script src="table_cdn/datatables.js"></script>
