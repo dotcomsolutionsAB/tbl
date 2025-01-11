@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if (!$error) {
             // Handle file upload
-            $targetDir = "uploads/brands/";
+            $targetDir = "../uploads/images/";
             if (!file_exists($targetDir)) {
                 mkdir($targetDir, 0777, true); // Create the directory if it doesn't exist
             }
@@ -82,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $error = "There was an error uploading the image.";
             } else {
                 // Insert into the database
-                $insertQuery = "INSERT INTO brands (name, category_id, description, image_path) VALUES (?, ?, ?, ?)";
+                $insertQuery = "INSERT INTO brands (name, category_id, description, photos) VALUES (?, ?, ?, ?)";
                 $stmt = $conn->prepare($insertQuery);
                 $stmt->bind_param("siss", $name, $category_id, $description, $targetFilePath);
 
