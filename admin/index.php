@@ -26,10 +26,12 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
+        
+        <div class="container mt-5">
         <div class="container">
             <a href="sheet.php" class="btn btn-warning btn-sm">Go To Sheet</a>
+            <a href="insert_brand.php" class="btn btn-primary btn-sm">Add Brand</a>
         </div>
-        <div class="container mt-5">
             <h2>Brands Table</h2>
             <table class="table table-bordered">
                 <thead>
