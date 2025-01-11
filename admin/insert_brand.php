@@ -9,6 +9,16 @@ if ($conn->connect_error) {
     die("Database connection failed: " . $conn->connect_error);
 }
 
+// Fetch categories dynamically
+$categories = [];
+$categoryQuery = "SELECT id, name FROM categories ORDER BY name ASC";
+$result = $conn->query($categoryQuery);
+if ($result && $result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        $categories[] = $row;
+    }
+}
+
 // Initialize variables for feedback messages
 $message = "";
 $error = "";
@@ -43,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $error = "There was an error uploading the image.";
         } else {
             // Insert into the database
-            $insertQuery = "INSERT INTO brands (name, category_id, description, image_path) VALUES (?, ?, ?, ?)";
+            $insertQuery = "INSERT INTO brands (name, category_id, description, photos) VALUES (?, ?, ?, ?)";
             $stmt = $conn->prepare($insertQuery);
             $stmt->bind_param("siss", $name, $category_id, $description, $targetFilePath);
 
@@ -58,7 +68,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-
+// Close database connection
+$conn->close();
 ?>
 
 <!DOCTYPE html>
@@ -81,8 +92,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label for="name">Brand Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
 
-        <label for="category">Category ID:</label><br>
-        <input type="number" id="category" name="category_id" required><br><br>
+        <label for="category">Category:</label><br>
+        <select id="category" name="category_id" required>
+            <option value="" disabled selected>Select a category</option>
+            <?php foreach ($categories as $category): ?>
+                <option value="<?= $category['id'] ?>"><?= htmlspecialchars($category['name']) ?></option>
+            <?php endforeach; ?>
+        </select><br><br>
 
         <label for="description">Description:</label><br>
         <textarea id="description" name="description"></textarea><br><br>
@@ -94,8 +110,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </form>
 </body>
 </html>
-
-<?php
-    // Close database connection
-    $conn->close();
-?>
