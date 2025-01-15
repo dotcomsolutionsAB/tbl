@@ -31,6 +31,7 @@
       <!-- Start Header Section -->
     <?php include("inc_files/header.php"); ?>
       <!-- End Header Section -->
+       
     <!-- Start Hero -->
     <section class="cs_hero cs_style_4 bg-primary position-relative d-flex align-items-center justify-content-center overflow-hidden youtube-bg" data-src="assets/img/hero_video_bg.jpg">
       <div id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=uYyLk5k2JAg', containment:'.youtube-bg',autoPlay:true, mute:true, startAt:1, opacity:1, showControls:false, loop:true}"></div>
@@ -95,12 +96,15 @@
     <!-- Start Company Statistic -->
     <!-- <?php include("inc_files/company_statistics.php"); ?> -->
     <!-- End Company Statistic -->
+
     <!-- Start Contact Section  -->
     <?php include("inc_files/contact_home.php"); ?>
     <!-- End Contact Section  -->
+
     <!-- Start Blog Section -->
     <!-- <?php include("inc_files/blogs.php"); ?> -->
     <!-- End Blog Section -->
+
     <!-- Start Footer -->
     <?php include("inc_files/footer.php"); ?>
     <!-- End Footer -->
