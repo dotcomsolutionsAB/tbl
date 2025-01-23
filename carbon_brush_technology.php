@@ -61,6 +61,7 @@
                 $categoryName = $brands[0]['category_name'];
             ?>
               <li class="breadcrumb-item active"><?php echo $categoryName; ?></li>
+              <title><?php echo $categoryName; ?></title>
             <?php              
               }
             ?>
