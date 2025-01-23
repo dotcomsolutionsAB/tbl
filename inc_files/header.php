@@ -22,14 +22,14 @@
                     </ul> -->
                   </li>
                   <li class="menu-item-has-children">
-                    <a href="#">About Us</a>
+                    <a href="about.php">About Us</a>
                     <ul>
                       <li><a href="about.php">About Us</a></li>
                       <li><a href="why_work_with_us.php">Why Work With Us</a></li>
                     </ul>
                   </li>
                   <li class="menu-item-has-children">
-                    <a href="#">Products</a>
+                    <a href="carbon_brush_technology.php?category_id=<?= $category['id'] ?>">Products</a>
                     <?php 
                         // Fetch categories
                         $stmt = $conn->prepare("SELECT id, name FROM categories");
@@ -64,7 +64,7 @@
                     </ul> -->
                   </li>
                   <li class="menu-item-has-children">
-                    <a href="#">Services</a>
+                    <a href="hydraulics_servicing_solutions_center.php">Services</a>
                     <ul>
                       <li><a href="hydraulics_servicing_solutions_center.php">Hydraulics Servicing & Solutions Center</a></li>
                       <li><a href="eot_cranes.php">EOT Cranes</a></li>
@@ -115,7 +115,11 @@
                   </div>
                   <div class="cs_header_contact_right">
                     <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Need help?  Call us:</h3>
-                    <h3 class="text-white m-0 cs_fs_13">+91 9836000409</h3>
+                    <a href="wa.me/+919836000409"><h3 class="text-white m-0 cs_fs_13">+91 9836000409</h3></a>
+                  </div>
+                  <div class="cs_header_contact_right">
+                    <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">E-Mail Us:</h3>
+                    <a href="mailto:tbl@tblindustrial.com"><h3 class="text-white m-0 cs_fs_13">tbl@tblindustrial.com</h3></a>
                   </div>
                 </div>
               </div>
