@@ -90,7 +90,7 @@
     <!-- End Testimonial Section -->
 
     <!-- Start Team Section -->
-    <?php include("inc_files/home_team.php"); ?>
+    <!-- <?php include("inc_files/home_team.php"); ?> -->
     <!-- End Team Section -->
 
     <!-- Start Company Statistic -->

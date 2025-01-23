@@ -74,7 +74,7 @@
     <!-- End Team Section -->
 
     <!-- Start Testimonial Section -->
-    <section class="background-filled cs_pt_110 cs_pt_lg_55 cs_pb_140 cs_pb_lg_80" data-src="assets/img/testimonial_bg.jpeg">
+    <!-- <section class="background-filled cs_pt_110 cs_pt_lg_55 cs_pb_140 cs_pb_lg_80" data-src="assets/img/testimonial_bg.jpeg">
       <div class="cs_testimonial_slider cs_gap_30">
         <div class="container">
           <div class="row">
@@ -212,7 +212,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End Testimonial Section -->
 
     <!-- Start Footer -->
