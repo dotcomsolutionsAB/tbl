@@ -1,6 +1,6 @@
 <?php include("connection.php"); ?>
 <header class="cs_site_header cs_style_1 cs_type_1 cs_sticky_header cs_site_header_full_width">
-      <div class="cs_top_header">
+      <!-- <div class="cs_top_header">
         <div class="container">
           <div class="cs_top_header_in">
             <div class="cs_top_header_left">
@@ -9,16 +9,16 @@
                 <li><a href="mailto:info@company.com">tbl@tblindustrial.com</a></li>
               </ul>
             </div>
-            <!-- <div class="cs_top_header_right">
+            <div class="cs_top_header_right">
               <ul class="cs_top_nav d-flex flex-wrap align-items-center cs_fs_12 text-white m-0 p-0">
                 <li><a href="">Help</a></li>
                 <li><a href="">Support</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
-            </div> -->
+            </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="cs_main_header">
         <div class="container">
           <div class="cs_main_header_in">
@@ -47,7 +47,7 @@
                     </ul>
                   </li>
                   <li class="menu-item-has-children">
-                    <a href="#">Products</a>
+                    <a href="carbon_brush_technology.php?category_id=<?= $category['id'] ?>">Products</a>
                     <?php 
                         // Fetch categories
                         $stmt = $conn->prepare("SELECT id, name FROM categories");
@@ -82,7 +82,7 @@
                     </ul> -->
                   </li>
                   <li class="menu-item-has-children">
-                    <a href="#">Services</a>
+                    <a href="hydraulics_servicing_solutions_center.php">Services</a>
                     <ul>
                       <li><a href="hydraulics_servicing_solutions_center.php">Hydraulics Servicing & Solutions Center</a></li>
                       <li><a href="eot_cranes.php">EOT Cranes</a></li>
