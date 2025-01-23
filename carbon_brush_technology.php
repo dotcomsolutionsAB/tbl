@@ -55,10 +55,18 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb text-white cs_fs_18 cs_mb_5">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active"><?php echo $brands['category_name']; ?></li>
+            <?php
+              if (!empty($brands)) {
+                // Get the category name from the first brand record
+                $categoryName = $brands[0]['category_name'];
+            ?>
+              <li class="breadcrumb-item active"><?php echo $categoryName; ?></li>
+            <?php              
+              }
+            ?>
           </ol>
         </nav>
-        <h1 class="cs_fs_48 cs_fs_lg_36 text-white m-0"><?php echo $brands['category_name']; ?></h1>
+        <h1 class="cs_fs_48 cs_fs_lg_36 text-white m-0"><?php echo $categoryName; ?></h1>
       </div>
       <div class="position-absolute end-0 bottom-0">
         <svg width="660" height="497" viewBox="0 0 660 497" fill="none" xmlns="http://www.w3.org/2000/svg">
