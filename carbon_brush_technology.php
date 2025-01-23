@@ -25,7 +25,7 @@
     <!-- Favicon Icon -->
     <link rel="icon" href="assets/img/favicon.png">
     <!-- Site Title -->
-    <title>Carbon Brush Technology</title>
+    <title><?php echo $brands[0]['category_name']; ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css">
@@ -61,7 +61,6 @@
                 $categoryName = $brands[0]['category_name'];
             ?>
               <li class="breadcrumb-item active"><?php echo $categoryName; ?></li>
-              <title><?php echo $categoryName; ?></title>
             <?php              
               }
             ?>
