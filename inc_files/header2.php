@@ -40,7 +40,7 @@
                     </ul> -->
                   </li>
                   <li class="menu-item-has-children">
-                    <a href="#">About Us</a>
+                    <a href="about.php">About Us</a>
                     <ul>
                       <li><a href="about.php">About Us</a></li>
                       <li><a href="why_work_with_us.php">Why Work With Us</a></li>
