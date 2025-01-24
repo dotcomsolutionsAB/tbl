@@ -8,7 +8,7 @@
               <a class="cs_site_branding" href="index.php">
                 <img src="assets/img/logo.png" alt="Logo">
               </a>  
-                          
+
             </div>
             <div class="cs_main_header_right">
               <div class="cs_nav cs_primary_font fw-medium">
@@ -101,7 +101,7 @@
                   </form>
                 </div> -->
                 <div class="cs_header_contact">
-                  <div class="cs_header_contact_icon text-accent">
+                  <!-- <div class="cs_header_contact_icon text-accent">
                     <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_81_254)">
                       <path d="M18.1846 18.6831C18.1846 19.0607 17.8786 19.3667 17.501 19.3667C17.1234 19.3667 16.8174 19.0607 16.8174 18.6831C16.8174 18.3055 17.1234 17.9995 17.501 17.9995C17.8786 17.9995 18.1846 18.3055 18.1846 18.6831Z" fill="currentColor"/>
@@ -113,7 +113,7 @@
                       </clipPath>
                       </defs>
                     </svg>
-                  </div>
+                  </div> -->
                   <div class="div">
                     <div class="cs_header_contact_right">
                       <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Need help?  Call us:</h3>
