@@ -110,7 +110,7 @@
               </div>
               <div>
                 <p class="text-accent cs_mb_7">Have Any Question?</p>
-                <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">+91 9836000409</h2>
+                <a href="https:wa.me/+919836000409"><h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">+91 9836000409</h2></a>
               </div>
             </div>
             <div class="d-flex align-items-center cs_mb_30">
