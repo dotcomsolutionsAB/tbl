@@ -113,13 +113,19 @@
                       </defs>
                     </svg>
                   </div>
-                  <div class="cs_header_contact_right">
-                    <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Need help?  Call us:</h3>
-                    <a href="wa.me/+919836000409"><h3 class="text-white m-0 cs_fs_13">+91 9836000409</h3></a>
-                  </div>
-                  <div class="cs_header_contact_right">
-                    <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">E-Mail Us:</h3>
-                    <a href="mailto:tbl@tblindustrial.com"><h3 class="text-white m-0 cs_fs_13">tbl@tblindustrial.com</h3></a>
+                  <div class="div">
+                    <div class="cs_header_contact_right">
+                      <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Need help?  Call us:</h3>
+                      <a href="wa.me/+919836000409">
+                        <h3 class="text-white m-0 cs_fs_13"> +91 9836000409</h3>
+                      </a>
+                    </div>
+                    <div class="cs_header_contact_right">
+                      <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">E-Mail Us:</h3>
+                      <a href="mailto:tbl@tblindustrial.com">
+                        <h3 class="text-white m-0 cs_fs_13">tbl@tblindustrial.com</h3>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -129,3 +135,12 @@
       </div>
     </header>
     <!-- End Header Section -->
+     <style>
+      .cs_header_contact_right{
+        display:flex;
+      }
+      .div{
+        display: flex;
+        flex-direction: column;
+      }
+     </style>
