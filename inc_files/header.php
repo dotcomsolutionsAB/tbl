@@ -150,4 +150,8 @@
         flex-direction: row;
         width:280px;
       }
+      .cs_header_contact .cs_header_contact_icon {
+        margin-right: 5px;
+        margin-left: 20px;
+      }
      </style>
