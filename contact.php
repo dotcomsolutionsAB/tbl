@@ -121,7 +121,7 @@
               </div>
               <div>
                 <p class="text-accent cs_mb_7">Send Email</p>
-                <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">tbl@tblindustrial.com</h2>
+                <a href="mailto:tbl@tblindustrial.com"><h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">tbl@tblindustrial.com</h2></a>
               </div>
             </div>
             <div class="d-flex align-items-center">
