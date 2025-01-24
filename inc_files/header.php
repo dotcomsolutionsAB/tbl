@@ -8,6 +8,9 @@
               <a class="cs_site_branding" href="index.php">
                 <img src="assets/img/logo.png" alt="Logo">
               </a>
+              
+            </div>
+            <div class="cs_main_header_right">
               <div class="cs_nav cs_primary_font fw-medium">
                 <ul class="cs_nav_list fw-medium text-uppercase">
                   <li class="#">
@@ -81,10 +84,8 @@
                   </li> -->
                 </ul>
               </div>
-            </div>
-            <div class="cs_main_header_right">
               <div class="cs_toolbox">
-                <div class="cs_header_search_wrap position-relative">
+                <!-- <div class="cs_header_search_wrap position-relative">
                   <span class="cs_header_search_btn d-flex">
                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M24.7628 23.6399L18.3082 17.2884C19.9984 15.452 21.037 13.0234 21.037 10.3509C21.0362 4.63387 16.3273 0 10.5181 0C4.70891 0 0 4.63387 0 10.3509C0 16.0678 4.70891 20.7017 10.5181 20.7017C13.0281 20.7017 15.3301 19.8335 17.1384 18.3902L23.618 24.7667C23.9338 25.0777 24.4463 25.0777 24.7621 24.7667C25.0785 24.4557 25.0785 23.9509 24.7628 23.6399ZM10.5181 19.1092C5.60289 19.1092 1.61836 15.1879 1.61836 10.3509C1.61836 5.51376 5.60289 1.59254 10.5181 1.59254C15.4333 1.59254 19.4178 5.51376 19.4178 10.3509C19.4178 15.1879 15.4333 19.1092 10.5181 19.1092Z" fill="currentColor"/>
@@ -98,7 +99,7 @@
                         </svg>                        
                     </button>
                   </form>
-                </div>
+                </div> -->
                 <div class="cs_header_contact">
                   <div class="cs_header_contact_icon text-accent">
                     <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -124,7 +125,7 @@
                         <h3 class="text-white m-0 cs_fs_13"> +91 9836000409</h3>
                       </a>
                       <a href="mailto:tbl@tblindustrial.com">
-                        <h3 class="text-white m-0 cs_fs_13">tbl@tblindustrial.com</h3>
+                        <h3 class="text-white m-0 cs_fs_13" style="padding-top: 5px;">tbl@tblindustrial.com</h3>
                       </a>
                     </div>
                   </div>
@@ -147,6 +148,6 @@
       .div{
         display: flex;
         flex-direction: row;
-        width:270px;
+        width:280px;
       }
      </style>
