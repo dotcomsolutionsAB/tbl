@@ -155,4 +155,7 @@
       .cs_header_contact .cs_header_contact_icon {
         
       }
+      .cs_site_header.cs_style_1 .cs_main_header_left {
+        width:370px;
+      }
      </style>
