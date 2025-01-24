@@ -116,12 +116,13 @@
                   <div class="div">
                     <div class="cs_header_contact_right">
                       <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Need help?  Call us:</h3>
+                      <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">E-Mail Us:</h3>
+                      
+                    </div>
+                    <div class="cs_header_contact_right">
                       <a href="wa.me/+919836000409">
                         <h3 class="text-white m-0 cs_fs_13"> +91 9836000409</h3>
                       </a>
-                    </div>
-                    <div class="cs_header_contact_right">
-                      <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">E-Mail Us:</h3>
                       <a href="mailto:tbl@tblindustrial.com">
                         <h3 class="text-white m-0 cs_fs_13">tbl@tblindustrial.com</h3>
                       </a>
@@ -138,9 +139,14 @@
      <style>
       .cs_header_contact_right{
         display:flex;
+        flex-direction: column;
+      }
+      .cs_header_contact_right h3, .cs_header_contact_right a h3{
+        padding:0px 5px;
       }
       .div{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        width:270px;
       }
      </style>
