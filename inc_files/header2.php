@@ -138,7 +138,7 @@
 
                 </div>
                 <div class="cs_header_contact_right">
-                  <a href="wa.me/+919836000409">
+                  <a href="https://wa.me/+919836000409">
                     <h3 class="text-white m-0 cs_fs_13"> +91 9836000409</h3>
                   </a>
                   <a href="mailto:tbl@tblindustrial.com">
