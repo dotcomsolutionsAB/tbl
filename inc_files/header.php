@@ -7,8 +7,8 @@
             <div class="cs_main_header_left">
               <a class="cs_site_branding" href="index.php">
                 <img src="assets/img/logo.png" alt="Logo">
-              </a>
-              
+              </a>  
+                          
             </div>
             <div class="cs_main_header_right">
               <div class="cs_nav cs_primary_font fw-medium">
