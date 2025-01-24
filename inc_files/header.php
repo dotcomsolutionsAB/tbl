@@ -1,21 +1,21 @@
 <?php include("connection.php"); ?>
-    <!-- Start Header Section -->
-    <header class="cs_site_header cs_style_1 cs_sticky_header cs_site_header_full_width">
-      <div class="cs_main_header">
-        <div class="container">
-          <div class="cs_main_header_in">
-            <div class="cs_main_header_left">
-              <a class="cs_site_branding" href="index.php">
-                <img src="assets/img/logo.png" alt="Logo">
-              </a>  
+<!-- Start Header Section -->
+<header class="cs_site_header cs_style_1 cs_sticky_header cs_site_header_full_width">
+  <div class="cs_main_header">
+    <div class="container">
+      <div class="cs_main_header_in">
+        <div class="cs_main_header_left">
+          <a class="cs_site_branding" href="index.php">
+            <img src="assets/img/logo.png" alt="Logo">
+          </a>
 
-            </div>
-            <div class="cs_main_header_right">
-              <div class="cs_nav cs_primary_font fw-medium">
-                <ul class="cs_nav_list fw-medium text-uppercase">
-                  <li class="#">
-                    <a href="index.php">Home</a>
-                    <!-- <ul>
+        </div>
+        <div class="cs_main_header_right">
+          <div class="cs_nav cs_primary_font fw-medium">
+            <ul class="cs_nav_list fw-medium text-uppercase">
+              <li class="#">
+                <a href="index.php">Home</a>
+                <!-- <ul>
                       <li><a href="index.html">Business</a></li>
                       <li><a href="corporate.html">Corporate</a></li>
                       <li><a href="finance.html">Financial institute</a></li>
@@ -23,37 +23,37 @@
                       <li><a href="consulting.html">Consulting Agency</a></li>
                       <li><a href="business-with-ecommerce.html">Business With E-Commerce</a></li>
                     </ul> -->
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="about.php">About Us</a>
-                    <ul>
-                      <li><a href="about.php">About Us</a></li>
-                      <li><a href="why_work_with_us.php">Why Work With Us</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="carbon_brush_technology.php?category_id=<?= $category['id'] ?>">Products</a>
-                    <?php 
-                        // Fetch categories
-                        $stmt = $conn->prepare("SELECT id, name FROM categories");
-                        $stmt->execute();
-                        $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
+              </li>
+              <li class="menu-item-has-children">
+                <a href="about.php">About Us</a>
+                <ul>
+                  <li><a href="about.php">About Us</a></li>
+                  <li><a href="why_work_with_us.php">Why Work With Us</a></li>
+                </ul>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="carbon_brush_technology.php?category_id=<?= $category['id'] ?>">Products</a>
+                <?php
+                // Fetch categories
+                $stmt = $conn->prepare("SELECT id, name FROM categories");
+                $stmt->execute();
+                $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-                        // Handle category selection
-                        $categoryDetails = null;
-                        if (isset($_GET['category_id'])) {
-                            $categoryId = intval($_GET['category_id']);
-                            $stmt = $conn->prepare("SELECT * FROM categories WHERE id = :id");
-                            $stmt->execute([':id' => $categoryId]);
-                            $categoryDetails = $stmt->fetch(PDO::FETCH_ASSOC);
-                        }
-                    ?>
-                    <ul>
-                        <?php foreach ($categories as $category): ?>
-                            <li><a href="carbon_brush_technology.php?category_id=<?= $category['id'] ?>"><?= htmlspecialchars($category['name']) ?></a></li>
-                        <?php endforeach; ?>
-                    </ul>
-                    <!-- <ul>
+                // Handle category selection
+                $categoryDetails = null;
+                if (isset($_GET['category_id'])) {
+                  $categoryId = intval($_GET['category_id']);
+                  $stmt = $conn->prepare("SELECT * FROM categories WHERE id = :id");
+                  $stmt->execute([':id' => $categoryId]);
+                  $categoryDetails = $stmt->fetch(PDO::FETCH_ASSOC);
+                }
+                ?>
+                <ul>
+                  <?php foreach ($categories as $category): ?>
+                    <li><a href="carbon_brush_technology.php?category_id=<?= $category['id'] ?>"><?= htmlspecialchars($category['name']) ?></a></li>
+                  <?php endforeach; ?>
+                </ul>
+                <!-- <ul>
                       <li><a href="carbon_brush_technology.php">Carbon Brush Technology</a></li>
                       <li><a href="services-details.html">Pumps For Water, Chemicals, Acids And Process Line</a></li>
                       <li><a href="team.html">Heat Exchangers, Decanters, Separators</a></li>
@@ -65,16 +65,16 @@
                       <li><a href="shop-product-details.html">Hydraulics Systems & Spares</a></li>
                       <li><a href="shop-product-details.html">Pipes, Pipe Fittings, Cutting & Bevelling Tools</a></li>
                     </ul> -->
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="hydraulics_servicing_solutions_center.php">Services</a>
-                    <ul>
-                      <li><a href="hydraulics_servicing_solutions_center.php">Hydraulics Servicing & Solutions Center</a></li>
-                      <li><a href="eot_cranes.php">EOT Cranes</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="contact.php">Contact Us</a></li>
-                  <!-- <li class="menu-item-has-children">
+              </li>
+              <li class="menu-item-has-children">
+                <a href="hydraulics_servicing_solutions_center.php">Services</a>
+                <ul>
+                  <li><a href="hydraulics_servicing_solutions_center.php">Hydraulics Servicing & Solutions Center</a></li>
+                  <li><a href="eot_cranes.php">EOT Cranes</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.php">Contact Us</a></li>
+              <!-- <li class="menu-item-has-children">
                     <a href="blog">Blog</a>
                     <ul>
                       <li><a href="blog-grid.html">Blog Grid</a></li>
@@ -82,10 +82,10 @@
                       <li><a href="blog-details.html">Blog Details</a></li>
                     </ul>
                   </li> -->
-                </ul>
-              </div>
-              <div class="cs_toolbox">
-                <!-- <div class="cs_header_search_wrap position-relative">
+            </ul>
+          </div>
+          <div class="cs_toolbox">
+            <!-- <div class="cs_header_search_wrap position-relative">
                   <span class="cs_header_search_btn d-flex">
                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M24.7628 23.6399L18.3082 17.2884C19.9984 15.452 21.037 13.0234 21.037 10.3509C21.0362 4.63387 16.3273 0 10.5181 0C4.70891 0 0 4.63387 0 10.3509C0 16.0678 4.70891 20.7017 10.5181 20.7017C13.0281 20.7017 15.3301 19.8335 17.1384 18.3902L23.618 24.7667C23.9338 25.0777 24.4463 25.0777 24.7621 24.7667C25.0785 24.4557 25.0785 23.9509 24.7628 23.6399ZM10.5181 19.1092C5.60289 19.1092 1.61836 15.1879 1.61836 10.3509C1.61836 5.51376 5.60289 1.59254 10.5181 1.59254C15.4333 1.59254 19.4178 5.51376 19.4178 10.3509C19.4178 15.1879 15.4333 19.1092 10.5181 19.1092Z" fill="currentColor"/>
@@ -100,8 +100,8 @@
                     </button>
                   </form>
                 </div> -->
-                <div class="cs_header_contact">
-                  <!-- <div class="cs_header_contact_icon text-accent">
+            <div class="cs_header_contact">
+              <!-- <div class="cs_header_contact_icon text-accent">
                     <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_81_254)">
                       <path d="M18.1846 18.6831C18.1846 19.0607 17.8786 19.3667 17.501 19.3667C17.1234 19.3667 16.8174 19.0607 16.8174 18.6831C16.8174 18.3055 17.1234 17.9995 17.501 17.9995C17.8786 17.9995 18.1846 18.3055 18.1846 18.6831Z" fill="currentColor"/>
@@ -114,48 +114,57 @@
                       </defs>
                     </svg>
                   </div> -->
-                  <div class="div">
-                    <div class="cs_header_contact_right">
-                      <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Need help?  Call us:</h3>
-                      <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">E-Mail Us:</h3>
-                      
-                    </div>
-                    <div class="cs_header_contact_right">
-                      <a href="wa.me/+919836000409">
-                        <h3 class="text-white m-0 cs_fs_13"> +91 9836000409</h3>
-                      </a>
-                      <a href="mailto:tbl@tblindustrial.com">
-                        <h3 class="text-white m-0 cs_fs_13" style="padding-top: 5px;">tbl@tblindustrial.com</h3>
-                      </a>
-                    </div>
-                  </div>
+              <div class="div">
+                <div class="cs_header_contact_right">
+                  <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Need help? Call us:</h3>
+                  <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">E-Mail Us:</h3>
+
+                </div>
+                <div class="cs_header_contact_right">
+                  <a href="wa.me/+919836000409">
+                    <h3 class="text-white m-0 cs_fs_13"> +91 9836000409</h3>
+                  </a>
+                  <a href="mailto:tbl@tblindustrial.com">
+                    <h3 class="text-white m-0 cs_fs_13" style="padding-top: 5px;">tbl@tblindustrial.com</h3>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
-    <!-- End Header Section -->
-     <style>
-      .cs_header_contact_right{
-        display:flex;
-        flex-direction: column;
-      }
-      .cs_header_contact_right h3, .cs_header_contact_right a h3{
-        padding:0px 5px;
-      }
-      .div{
-        display: flex;
-        flex-direction: row;
-        width:280px;
-        margin-right: 5px;
-        margin-left: 20px;
-      }
-      .cs_header_contact .cs_header_contact_icon {
-        
-      }
-      .cs_site_header.cs_style_1 .cs_main_header_left {
-        width:370px;
-      }
-     </style>
+    </div>
+  </div>
+</header>
+<!-- End Header Section -->
+<style>
+  @media (max-width: 520px) {
+    .cs_site_header.cs_style_1 .cs_main_header_left {
+      width: 250px;
+    }
+  }
+
+  .cs_header_contact_right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cs_header_contact_right h3,
+  .cs_header_contact_right a h3 {
+    padding: 0px 5px;
+  }
+
+  .div {
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    margin-right: 5px;
+    margin-left: 20px;
+  }
+
+  .cs_header_contact .cs_header_contact_icon {}
+
+  .cs_site_header.cs_style_1 .cs_main_header_left {
+    width: 370px;
+  }
+</style>
