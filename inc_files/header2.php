@@ -154,17 +154,17 @@
   </div>
 </header>
 <style>
-  @media (max-width: 480px) {
-    .cs_site_header.cs_style_1 .cs_main_header_left {
-      width: 250px;
-    }
-  }
-  @media (min-width: 521px) {
+  
+  @media (min-width: 520px) {
     .cs_site_header.cs_style_1 .cs_main_header_left {
         width: 370px;
     }
-}
-
+  }
+  @media (max-width: 480px) {
+    .cs_site_header.cs_style_1 .cs_main_header_left {
+      width: 250px !important;
+    }
+  }
   .cs_header_contact_right {
     display: flex;
     flex-direction: column;
