@@ -154,7 +154,7 @@
   </div>
 </header>
 <style>
-  @media (max-width: 520px) {
+  @media (max-width: 480px) {
     .cs_site_header.cs_style_1 .cs_main_header_left {
       width: 250px;
     }
