@@ -138,9 +138,14 @@
 </header>
 <!-- End Header Section -->
 <style>
-  @media (max-width: 520px) {
+  @media (min-width: 520px) {
     .cs_site_header.cs_style_1 .cs_main_header_left {
-      width: 250px;
+        width: 370px;
+    }
+  }
+  @media (max-width: 480px) {
+    .cs_site_header.cs_style_1 .cs_main_header_left {
+      width: 250px !important;
     }
   }
 
@@ -164,7 +169,4 @@
 
   .cs_header_contact .cs_header_contact_icon {}
 
-  .cs_site_header.cs_style_1 .cs_main_header_left {
-    width: 370px;
-  }
 </style>
