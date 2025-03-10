@@ -23,7 +23,7 @@
                 <div class="cs_section_heading_in">
                   <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">About Us</h3>
                   <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">Get Ready for Success with <span class="text-accent">TBL</span> Your Path to Growth.</h2>
-                  <p class="m-0">TBL Industrial & Engineering Exports Pvt Ltd started off as Jainex Industrial as a 50-50 partnership between the Jainex group and LMG Group registered in Mumbai with operational headquarters in Kolkata. The major thrust was exports and imports. TBL was primary focused on hydraulic applications which led to its first tie up with Parker Hannifin, the world leader in Hydraulics, Pneumatics, Filtration products and Seals. The first order was received in March 2002 for export to Bangladesh.</p>
+                  <p class="m-0">The major thrust was exports and imports. TBL was primary focused on hydraulic applications which led to its first tie up with Parker Hannifin, the world leader in Hydraulics, Pneumatics, Filtration products and Seals. The first order was received in March 2002 for export to Bangladesh.</p>
                 </div>
               </div>
               <!-- <div class="cs_progressbar cs_style_1 cs_mb_20">

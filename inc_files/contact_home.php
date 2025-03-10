@@ -6,7 +6,7 @@
               <div class="cs_section_heading_in">
                 <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Contact With Us</h3>
                 <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20 text-white">Let’s Work Together?</h2>
-                <p class="text-white m-0">Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses.</p>
+                <p class="text-white m-0">Providing engineering solutions along with top of the line products for industry.</p>
               </div>
             </div>
             <div class="d-flex align-items-center cs_mb_30">

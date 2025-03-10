@@ -107,7 +107,6 @@
     }
   </style>
   <div class="content-section">
-    <img src="assets/img/hydraulic_logo.jpg" alt="TBL Creative Logo">
     <h1>Introduction</h1>
   <p>
     We would like to introduce ourselves as one of the most effective houses to provide the services, maintenance & solutions along with design & development, manufacture, supplies, installation & commissioning of <b>Hydraulic Systems</b>, <b>Actuators</b>, etc., to maintain your equipment suitably for steady productions. 
