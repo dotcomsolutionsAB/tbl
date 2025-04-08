@@ -69,9 +69,9 @@
             transition: transform 0.3s ease;
         }
         /* Desktop Default: Sidebar Visible */
-    .sidebar {
-        left: 0;
-    }
+        .sidebar {
+            left: 0;
+        }
         .sidebar.open {
             left: -250px;
         }

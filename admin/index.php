@@ -89,7 +89,8 @@
                             </div>
                             <div class="mb-3">
                                 <label for="updatePhoto" class="form-label">Photo</label>
-                                <input type="text" class="form-control" id="updatePhoto">
+                                <input type="text" class="form-control" id="updatePhotos">
+                                <img src="" alt="Photo preview" id="updatePhoto" style="width: 100px; height: 100px; margin-top: 10px; display: none;">
                             </div>
                             <button type="button" class="btn btn-primary" onclick="submitUpdate()">Update</button>
                         </form>
@@ -104,7 +105,11 @@
                 document.getElementById('updateName').value = name;
                 document.getElementById('updateDescription').value = description;
                 document.getElementById('updateUrl').value = url;
-                document.getElementById('updatePhoto').value = photo;
+                document.getElementById('updatePhotos').value = photo;
+
+                document.getElementById('updatePhoto').src = photo; // ✅ Set preview
+                document.getElementById('updatePhoto').style.display = 'block'; // ✅ Make sure it's visible
+
                 document.getElementById('updatePopup').style.display = 'block';
             }
 
