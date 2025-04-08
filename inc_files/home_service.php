@@ -55,7 +55,7 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <div class="container">
-  <div class="cs_section_heading cs_style_1 text-center cs_mb_60 cs_mb_lg_40">
+  <div class="cs_section_heading cs_style_1 text-center cs_mb_lg_40">
     <div class="cs_section_heading_in">
       <h3 class="cs_fs_20 text-accent fw-normal cs_lh_base wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"></h3>
       <h2 class="cs_fs_48 cs_fs_lg_36 m-0">Our Products</h2>
@@ -132,7 +132,7 @@
     spaceBetween: 24,
     slidesPerView: 1,
     autoplay: {
-      delay: 700,
+      delay: 30000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true // Pause when hovering
     },
