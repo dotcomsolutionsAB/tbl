@@ -106,7 +106,7 @@ error_reporting(E_ALL);
       <div class="swiper-slide">
         <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25">
           <div class="cs_service_thumb position-relative cs_rounded_5 cs_mb_25">
-            <div class="cs_service_thumb-in position-relative-in background-filled h-100" style="background-image: url('uploads/image/<?= $product['image'] ?>'); background-size: cover; background-position: center;"></div>
+            <div class="cs_service_thumb-in position-relative-in background-filled h-100" style="background-image: url('../uploads/image/<?= $product['image'] ?>'); background-size: cover; background-position: center;"></div>
           </div>
           <div class="cs_service_iconbox d-flex align-items-center cs_mb_20">
             <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0">
