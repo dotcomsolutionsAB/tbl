@@ -46,7 +46,7 @@
       return;
   }
 
-  $conn->close();
+  // $conn->close();
 ?>
   <div class="brand-slider" style="display: flex; gap: 20px; overflow-x: auto;">
     <?php foreach ($products as $product): ?>
