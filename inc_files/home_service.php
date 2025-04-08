@@ -127,12 +127,6 @@ error_reporting(E_ALL);
       <?php endforeach; ?>
     </div>
   </div>
-  <!-- Custom navigation buttons -->
-  <div class="slider-nav sticky bottom-10 left-1/2 -translate-x-1/2 z-50 flex gap-4 justify-center">
-    <div class="swiper-button-prev custom-nav-btn"></div>
-    <div class="swiper-button-next custom-nav-btn"></div>
-  </div>
-
 </div>
 
 <style>
@@ -153,41 +147,6 @@ error_reporting(E_ALL);
     padding: 20px !important;
   }
 </style>
-<style>
-  .custom-nav-btn {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    transition: background 0.3s ease;
-  }
-
-  .custom-nav-btn:hover {
-    background-color: darkred;
-  }
-
-  .swiper-button-next::after,
-  .swiper-button-prev::after {
-    content: '';
-  }
-
-  .swiper-button-prev::before {
-    content: '‹';
-  }
-
-  .swiper-button-next::before {
-    content: '›';
-  }
-</style>
-
-
 <script>
   const swiper = new Swiper('.cs_service_slider_2', {
     loop: true,
@@ -197,10 +156,6 @@ error_reporting(E_ALL);
       delay: 100000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true // Pause when hovering
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev'
     },
     breakpoints: {
       576: { slidesPerView: 2 },
