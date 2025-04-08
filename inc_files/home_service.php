@@ -125,7 +125,9 @@ error_reporting(E_ALL);
         </div>
       </div>
       <?php endforeach; ?>
-
+        <!-- Navigation buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
   </div>
 </div>
@@ -147,6 +149,22 @@ error_reporting(E_ALL);
     padding: 20px !important;
   }
 </style>
+<style>
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #000;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 18px;
+  }
+</style>
+
 <script>
   const swiper = new Swiper('.cs_service_slider_2', {
     loop: true,
@@ -156,6 +174,10 @@ error_reporting(E_ALL);
       delay: 100000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true // Pause when hovering
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
     },
     breakpoints: {
       576: { slidesPerView: 2 },
