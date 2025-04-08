@@ -1,8 +1,10 @@
 
 
 <?php
+
   // Assuming you have PDO or MySQLi connection
-  $conn = new mysqli("localhost", "username", "password", "database");
+  // $conn = new mysqli("localhost", "username", "password", "database");
+  include("connection.php");
 
   // Query to join brands with categories and uploads
   $sql = "
