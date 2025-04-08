@@ -57,6 +57,7 @@
                             <td>
                                 <button class="btn btn-warning btn-sm" onclick="showUpdatePopup(<?= $brand['id'] ?>, '<?= addslashes($brand['name']) ?>', '<?= addslashes($brand['description']) ?>', '<?= addslashes($brand['url_link']) ?>', '<?= addslashes($brand['photos']) ?>')">Update</button>
                                 <button class="btn btn-danger btn-sm" onclick="deleteBrand(<?= $brand['id'] ?>)">Delete</button>
+                                <button class="btn btn-info btn-sm" onclick="showUploadPopup(<?= $brand['id'] ?>)">Upload</button>
                             </td>
                         </tr>
                     <?php } ?>
@@ -99,6 +100,63 @@
             </div>
         </div>
 
+        <!-- Upload Modal -->
+        <div id="uploadPopup" class="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Upload Brand Photo</h5>
+                        <button type="button" class="btn-close" onclick="closeUploadPopup()"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="uploadForm" enctype="multipart/form-data">
+                            <input type="hidden" id="uploadId" name="uploadId">
+                            <div class="mb-3">
+                                <label for="uploadFile" class="form-label">Select Image</label>
+                                <input type="file" class="form-control" id="uploadFile" name="photo" accept="image/*" required>
+                            </div>
+                            <button type="submit" class="btn btn-success">Upload</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Upload Script -->
+         <script>
+            function showUploadPopup(id) {
+                document.getElementById('uploadId').value = id;
+                document.getElementById('uploadPopup').style.display = 'block';
+            }
+            function closeUploadPopup() {
+                document.getElementById('uploadPopup').style.display = 'none';
+            }
+
+            // Handle file upload
+            $('#uploadForm').on('submit', function(e) {
+                e.preventDefault();
+
+                const formData = new FormData(this);
+                formData.append('action', 'upload');
+
+                $.ajax({
+                    url: '',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(res) {
+                        alert('Photo uploaded successfully');
+                        location.reload();
+                    },
+                    error: function(err) {
+                        alert('Error uploading photo');
+                    }
+                });
+            });
+         </script>
+
+        <!-- Update Script -->
         <script>
             function showUpdatePopup(id, name, description, url, photo) {
                 document.getElementById('updateId').value = id;
@@ -153,6 +211,7 @@
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $action = $_POST['action'] ?? '';
 
+            // For Delete
             if ($action === 'delete') {
                 $id = $_POST['id'] ?? 0;
                 $stmt = $conn->prepare("DELETE FROM brands WHERE id = :id");
@@ -161,6 +220,7 @@
                 exit;
             }
 
+            // For Update
             if ($action === 'update') {
                 $id = $_POST['id'] ?? 0;
                 $name = $_POST['name'] ?? '';
@@ -180,5 +240,41 @@
                 echo json_encode(["message" => "Brand updated successfully"]);
                 exit;
             }
+
+            // For Upload
+            if ($action === 'upload') {
+                $id = $_POST['uploadId'] ?? 0;
+                
+                die($id);
+                
+                if (!empty($_FILES['photo']['name'])) {
+                    $uploadDir = 'uploads/brands/';
+                    if (!is_dir($uploadDir)) {
+                        mkdir($uploadDir, 0777, true);
+                    }
+            
+                    $fileName = time() . '_' . basename($_FILES['photo']['name']);
+                    $targetFile = $uploadDir . $fileName;
+            
+                    if (move_uploaded_file($_FILES['photo']['tmp_name'], $targetFile)) {
+                        // Save path to DB
+                        $stmt = $conn->prepare("UPDATE brands SET photos = :photo WHERE id = :id");
+                        $stmt->execute([
+                            ':photo' => $targetFile,
+                            ':id' => $id
+                        ]);
+            
+                        echo json_encode(["message" => "Photo uploaded successfully"]);
+                    } else {
+                        http_response_code(500);
+                        echo json_encode(["message" => "Failed to move uploaded file"]);
+                    }
+                } else {
+                    http_response_code(400);
+                    echo json_encode(["message" => "No file uploaded"]);
+                }
+                exit;
+            }
+            
         }
     ?>

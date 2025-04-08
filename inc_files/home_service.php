@@ -67,7 +67,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="cs_slide">
               <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25">
                 <div class="cs_service_thumb position-relative cs_rounded_5 cs_mb_25">
@@ -351,6 +351,7 @@
                 </div>
               </div>
             </div>
+            
           </div>
           <div class="d-flex cs_column_gap_15 justify-content-center cs_pt_50">
             <div class="cs_slider_prev filter cs_height_45 cs_width_45 bg-white rounded-circle d-flex align-items-center justify-content-center bg-accent-hover cs_transition_4">
