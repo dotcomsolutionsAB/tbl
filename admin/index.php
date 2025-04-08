@@ -244,27 +244,72 @@
             // For Upload
             if ($action === 'upload') {
                 $id = $_POST['uploadId'] ?? 0;
-                
-                die($id);
-                
+            
                 if (!empty($_FILES['photo']['name'])) {
-                    $uploadDir = 'uploads/brands/';
+                    $uploadDir = '../uploads/images/';
                     if (!is_dir($uploadDir)) {
                         mkdir($uploadDir, 0777, true);
                     }
             
-                    $fileName = time() . '_' . basename($_FILES['photo']['name']);
-                    $targetFile = $uploadDir . $fileName;
+                    // Step 1: Get current image_id from brands table
+                    $stmt = $conn->prepare("SELECT image_id FROM brands WHERE id = :id");
+                    $stmt->execute([':id' => $id]);
+                    $brand = $stmt->fetch(PDO::FETCH_ASSOC);
             
+                    if ($brand && !empty($brand['image_id'])) {
+                        $imageId = $brand['image_id'];
+            
+                        // Step 2: Fetch file name from uploads table
+                        $stmt = $conn->prepare("SELECT name FROM uploads WHERE id = :image_id");
+                        $stmt->execute([':image_id' => $imageId]);
+                        $upload = $stmt->fetch(PDO::FETCH_ASSOC);
+            
+                        if ($upload) {
+                            $filePath = $uploadDir . $upload['name'];
+            
+                            // Step 3: Delete the file if it exists
+                            if (file_exists($filePath)) {
+                                unlink($filePath);
+                            }
+            
+                            // Step 4: Delete record from uploads table
+                            $stmt = $conn->prepare("DELETE FROM uploads WHERE id = :image_id");
+                            $stmt->execute([':image_id' => $imageId]);
+                        }
+            
+                        // Step 5: Set image_id to NULL in brands
+                        $stmt = $conn->prepare("UPDATE brands SET image_id = NULL WHERE id = :id");
+                        $stmt->execute([':id' => $id]);
+                    }
+            
+                    // Step 6: Prepare new file info
+                    $originalName = $_FILES['photo']['name'];
+                    $extension = pathinfo($originalName, PATHINFO_EXTENSION);
+                    $newFileName = time() . '_' . uniqid() . '.' . $extension;
+                    $targetFile = $uploadDir . $newFileName;
+            
+                    // Step 7: Move uploaded file
                     if (move_uploaded_file($_FILES['photo']['tmp_name'], $targetFile)) {
-                        // Save path to DB
-                        $stmt = $conn->prepare("UPDATE brands SET photos = :photo WHERE id = :id");
+                        // Step 8: Insert new upload record
+                        $stmt = $conn->prepare("
+                            INSERT INTO uploads (name, path, extension, created_at, updated_at)
+                            VALUES (:name, :path, :extension, NOW(), NOW())
+                        ");
                         $stmt->execute([
-                            ':photo' => $targetFile,
+                            ':name' => $newFileName,
+                            ':path' => $targetFile,
+                            ':extension' => $extension
+                        ]);
+                        $newImageId = $conn->lastInsertId();
+            
+                        // Step 9: Update brands table with new image_id
+                        $stmt = $conn->prepare("UPDATE brands SET image_id = :image_id WHERE id = :id");
+                        $stmt->execute([
+                            ':image_id' => $newImageId,
                             ':id' => $id
                         ]);
             
-                        echo json_encode(["message" => "Photo uploaded successfully"]);
+                        echo json_encode(["message" => "Photo uploaded and replaced successfully"]);
                     } else {
                         http_response_code(500);
                         echo json_encode(["message" => "Failed to move uploaded file"]);
@@ -275,6 +320,7 @@
                 }
                 exit;
             }
+            
             
         }
     ?>
