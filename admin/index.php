@@ -181,7 +181,7 @@
                 document.getElementById('updateName').value = name;
                 document.getElementById('updateDescription').value = description;
                 document.getElementById('updateUrl').value = url;
-                // document.getElementById('updatePhotos').value = photo;
+                document.getElementById('updatePhotos').value = photo;
 
                 document.getElementById('updatePhoto').src = photo; // ✅ Set preview
                 document.getElementById('updatePhoto').style.display = 'block'; // ✅ Make sure it's visible
@@ -305,6 +305,8 @@
                     $extension = pathinfo($originalName, PATHINFO_EXTENSION);
                     $newFileName = time() . '_' . uniqid() . '.' . $extension;
                     $targetFile = $uploadDir . $newFileName;
+
+                    
             
                     // Step 7: Move uploaded file
                     if (move_uploaded_file($_FILES['photo']['tmp_name'], $targetFile)) {
@@ -320,10 +322,15 @@
                         ]);
                         $newImageId = $conn->lastInsertId();
             
+                        // ✅ Set domain and image URL
+                        $domain = 'https://abc.com';
+                        $photoUrl = $domain . '/uploads/images/' . $newFileName;
+
                         // Step 9: Update brands table with new image_id
-                        $stmt = $conn->prepare("UPDATE brands SET image_id = :image_id WHERE id = :id");
+                        $stmt = $conn->prepare("UPDATE brands SET image_id = :image_id, photos = :photos WHERE id = :id");
                         $stmt->execute([
                             ':image_id' => $newImageId,
+                            ':photos' => $photoUrl,
                             ':id' => $id
                         ]);
             
