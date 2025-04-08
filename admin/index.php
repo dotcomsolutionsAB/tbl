@@ -181,7 +181,7 @@
                 document.getElementById('updateName').value = name;
                 document.getElementById('updateDescription').value = description;
                 document.getElementById('updateUrl').value = url;
-                document.getElementById('updatePhotos').value = photo;
+                // document.getElementById('updatePhotos').value = photo;
 
                 document.getElementById('updatePhoto').src = photo; // ✅ Set preview
                 document.getElementById('updatePhoto').style.display = 'block'; // ✅ Make sure it's visible
