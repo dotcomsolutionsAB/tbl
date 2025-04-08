@@ -136,7 +136,7 @@ error_reporting(E_ALL);
     spaceBetween: 24,
     slidesPerView: 1,
     autoplay: {
-      delay: 2000,
+      delay: 10000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true // Pause when hovering
     },
