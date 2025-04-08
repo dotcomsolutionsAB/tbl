@@ -104,23 +104,27 @@ error_reporting(E_ALL);
 
       <?php foreach ($products as $product): ?>
       <div class="swiper-slide">
-        <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25 p20">
-          <div class="cs_service_thumb position-relative cs_rounded_5 cs_mb_25 img_box">
-            <img src="../uploads/images/<?= $product['image'] ?>" alt="<?= $product['title'] ?>" class="img-fluid w-100 cs_rounded_5" />
+        <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25 p20 each-card">
+          <div class="content-div">
+            <div class="cs_service_thumb position-relative cs_rounded_5 cs_mb_25 img_box">
+              <img src="../uploads/images/<?= $product['image'] ?>" alt="<?= $product['title'] ?>" class="img-fluid w-100 cs_rounded_5" />
+            </div>
+            <div class="cs_service_iconbox d-flex align-items-center cs_mb_20">
+              <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0">
+                <a href="<?= $product['link'] ?>" class="inline-block"><?= $product['title'] ?></a>
+              </h2>
+            </div>
+            <p class="cs_mb_20"><?= $product['desc'] ?></p>
           </div>
-          <div class="cs_service_iconbox d-flex align-items-center cs_mb_20">
-            <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0">
-              <a href="<?= $product['link'] ?>" class="inline-block"><?= $product['title'] ?></a>
-            </h2>
-          </div>
-          <p class="cs_mb_20"><?= $product['desc'] ?></p>
-          <div class="text-primary">
-            <a href="<?= $product['link'] ?>" class="cs_post_btn_2 d-inline-flex justify-content-between align-items-center cs_column_gap_10">
-              <span class="cs_post_btn-text">Read More</span>
-              <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M14.9505 5.44725...Z" fill="currentColor"/>
-              </svg>
-            </a>
+          <div class="btn-div">
+            <div class="text-primary">
+              <a href="<?= $product['link'] ?>" class="cs_post_btn_2 d-inline-flex justify-content-between align-items-center cs_column_gap_10">
+                <span class="cs_post_btn-text">Read More</span>
+                <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.9505 5.44725...Z" fill="currentColor"/>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -130,6 +134,14 @@ error_reporting(E_ALL);
 </div>
 
 <style>
+  .each-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua !important;
+    height: 470px;
+  }
+  
   .img_box{
     height: 220px !important;
     display: flex;
