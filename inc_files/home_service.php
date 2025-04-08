@@ -10,7 +10,7 @@
   // $password = 'Jzz4Qp1e5Za1k@can';
 
   // 1. DB connection
-  $conn = new mysqli("localhost", "tbl_", "tbl_", "Jzz4Qp1e5Za1k@can");
+  $conn = new mysqli("localhost", "tbl_", "Jzz4Qp1e5Za1k@can", "tbl_");
   if ($conn->connect_error) {
       die("Connection failed: " . $conn->connect_error);
   }
