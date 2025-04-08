@@ -68,7 +68,7 @@
 
       <?php foreach ($products as $product): ?>
       <div class="swiper-slide">
-        <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25">
+        <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25 each-card">
           <div class="content-div">
             <div class="cs_service_thumb position-relative cs_rounded_5 cs_mb_25 img_box p20">
               <img src="../uploads/images/<?= $product['image'] ?>" alt="<?= $product['title'] ?>" class="img-fluid w-100 cs_rounded_5" />
@@ -105,6 +105,7 @@
     /* background-color: aqua !important; */
     height: 470px;
   }
+  
 
   .img_box{
     height: 220px !important;
@@ -125,6 +126,7 @@
   .mb30{
     margin-bottom: 30px;
   }
+
 </style>
 <script>
   const swiper = new Swiper('.cs_service_slider_2', {
