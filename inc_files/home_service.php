@@ -134,7 +134,7 @@
     spaceBetween: 24,
     slidesPerView: 1,
     autoplay: {
-      delay: 700,
+      delay: 30000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true // Pause when hovering
     },
