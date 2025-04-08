@@ -28,7 +28,11 @@
     ";
 
   $result = $conn->query($sql);
-
+  if ($result->num_rows === 0) {
+      echo "No data found!";
+      exit;
+  }
+  
   $products = [];
 
   if ($result->num_rows > 0) {
