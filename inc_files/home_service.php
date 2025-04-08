@@ -4,14 +4,16 @@
   ini_set('display_errors', 1);
   error_reporting(E_ALL);
   // Database configuration
-  $host = 'localhost';
-  $dbname = 'tbl_';
-  $username = 'tbl_';
-  $password = 'Jzz4Qp1e5Za1k@can';
+  // $host = 'localhost';
+  // $dbname = 'tbl_';
+  // $username = 'tbl_';
+  // $password = 'Jzz4Qp1e5Za1k@can';
 
-  // Create a database connection
-  $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  // 1. DB connection
+  $conn = new mysqli("localhost", "tbl_", "tbl_", "Jzz4Qp1e5Za1k@can");
+  if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+  }
 
   // 2. Fetch brand data with JOINs
   $sql = "
