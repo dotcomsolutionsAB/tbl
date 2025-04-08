@@ -104,7 +104,7 @@ error_reporting(E_ALL);
 
       <?php foreach ($products as $product): ?>
       <div class="swiper-slide">
-        <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25">
+        <div class="cs_service cs_style_1 cs_type_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25 p20">
           <div class="cs_service_thumb position-relative cs_rounded_5 cs_mb_25 img_box">
             <img src="../uploads/images/<?= $product['image'] ?>" alt="<?= $product['title'] ?>" class="img-fluid w-100 cs_rounded_5" />
           </div>
@@ -131,15 +131,20 @@ error_reporting(E_ALL);
 </div>
 <style>
   .img_box{
-    height:220px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    height: 220px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 100% !important;
   }
   .img_box img{
     object-fit:contain;
-    width:100%;
+    width:100% !important;
     height:100%;
+  }
+  .p20{
+    padding: 20px !important;
   }
 </style>
 <script>
@@ -148,7 +153,7 @@ error_reporting(E_ALL);
     spaceBetween: 24,
     slidesPerView: 1,
     autoplay: {
-      delay: 10000,
+      delay: 100000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true // Pause when hovering
     },
