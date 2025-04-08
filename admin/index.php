@@ -65,7 +65,13 @@
                             <td><?= htmlspecialchars($brand['category_name']) ?></td>
                             <td><?= htmlspecialchars($brand['description']) ?></td>
                             <td><a href="<?= htmlspecialchars($brand['url_link']) ?>" target="_blank">Link</a></td>
-                            <td><img src="../uploads/image/<?= htmlspecialchars($brand['photos']) ?>" alt="Photo" style="width: 50px; height: 50px;"></td>
+                            <td>
+                                <?php if (!empty($brand['image_name'])): ?>
+                                    <img src="../uploads/images/<?= htmlspecialchars($brand['image_name']) ?>" alt="Photo" style="width: 50px; height: 50px;">
+                                <?php else: ?>
+                                    <span>No Image</span>
+                                <?php endif; ?>
+                            </td>
                             <td>
                                 <button class="btn btn-warning btn-sm" onclick="showUpdatePopup(<?= $brand['id'] ?>, '<?= addslashes($brand['name']) ?>', '<?= addslashes($brand['description']) ?>', '<?= addslashes($brand['url_link']) ?>', '<?= addslashes($brand['photos']) ?>')">Update</button>
                                 <button class="btn btn-danger btn-sm" onclick="deleteBrand(<?= $brand['id'] ?>)">Delete</button>
