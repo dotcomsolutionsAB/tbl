@@ -103,7 +103,7 @@
     flex-direction: column;
     justify-content: space-between;
     /* background-color: aqua !important; */
-    height: 470px;
+    height: 550px;
   }
   
 
@@ -134,7 +134,7 @@
     spaceBetween: 24,
     slidesPerView: 1,
     autoplay: {
-      delay: 30000,
+      delay: 700,
       disableOnInteraction: false,
       pauseOnMouseEnter: true // Pause when hovering
     },
