@@ -108,7 +108,7 @@
   
 
   .img_box{
-    height: 250px !important;
+    height: 220px !important;
     display: flex;
     justify-content: center;
     align-items: center;
