@@ -11,7 +11,19 @@
 
         if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             // Fetch all data from brands table
-            $stmt = $conn->prepare("SELECT b.*, c.name as category_name FROM brands b JOIN categories c ON b.category_id = c.id");
+            // $stmt = $conn->prepare("SELECT b.*, c.name as category_name FROM brands b JOIN categories c ON b.category_id = c.id");
+            $stmt = $conn->prepare("
+            SELECT 
+                b.*, 
+                c.name AS category_name,
+                u.name AS image_name 
+            FROM 
+                brands b 
+            JOIN 
+                categories c ON b.category_id = c.id
+            LEFT JOIN 
+                uploads u ON b.image_id = u.id");
+
             $stmt->execute();
             $brands = $stmt->fetchAll(PDO::FETCH_ASSOC);
     ?>
@@ -146,7 +158,7 @@
                     processData: false,
                     contentType: false,
                     success: function(res) {
-                        alert('Photo uploaded successfully');
+                        // alert('Photo uploaded successfully');
                         location.reload();
                     },
                     error: function(err) {
