@@ -125,12 +125,16 @@ error_reporting(E_ALL);
         </div>
       </div>
       <?php endforeach; ?>
-        <!-- Navigation buttons -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
     </div>
   </div>
+  <!-- Custom navigation buttons -->
+  <div class="slider-nav sticky bottom-10 left-1/2 -translate-x-1/2 z-50 flex gap-4 justify-center">
+    <div class="swiper-button-prev custom-nav-btn"></div>
+    <div class="swiper-button-next custom-nav-btn"></div>
+  </div>
+
 </div>
+
 <style>
   .img_box{
     height: 220px !important;
@@ -150,20 +154,39 @@ error_reporting(E_ALL);
   }
 </style>
 <style>
-  .swiper-button-next,
-  .swiper-button-prev {
-    color: #000;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px;
+  .custom-nav-btn {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
     border-radius: 50%;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: background 0.3s ease;
+  }
+
+  .custom-nav-btn:hover {
+    background-color: darkred;
   }
 
   .swiper-button-next::after,
   .swiper-button-prev::after {
-    font-size: 18px;
+    content: '';
+  }
+
+  .swiper-button-prev::before {
+    content: '‹';
+  }
+
+  .swiper-button-next::before {
+    content: '›';
   }
 </style>
+
 
 <script>
   const swiper = new Swiper('.cs_service_slider_2', {
