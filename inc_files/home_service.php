@@ -35,9 +35,9 @@ error_reporting(E_ALL);
   if ($result->num_rows > 0) {
       while ($row = $result->fetch_assoc()) {
           $image_full_path = $row['image_name'];
-          if (!empty($row['extension'])) {
-              $image_full_path .= '.' . $row['extension'];
-          }
+          // if (!empty($row['extension'])) {
+          //     $image_full_path .= '.' . $row['extension'];
+          // }
 
           $products[] = [
               "title" => $row['category_name'],
