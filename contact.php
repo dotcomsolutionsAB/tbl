@@ -178,6 +178,7 @@
             ECB Chattar, Mirpur DOHS Road, Matikata, Cantonment
           <br>
             +8801673430814 / +8801610886800
+          <br>
             dhaka@tblindustrial.com
           </div>
           <div class="col-md-4">
@@ -186,7 +187,8 @@
             <br>
             B12 Apon Nibash, East Nasirabad
           <br>
-            +8801911318104 / +8801713103502
+          +880 1318394969 / +880 1713103502
+          <br>
             adnan_tf@hotmail.com
           </div>
         </div>
