@@ -74,6 +74,7 @@
                 </ul>
               </li>
               <li><a href="contact.php">Contact Us</a></li>
+              <li><a href="contact.php">Brochure</a></li>
               <!-- <li class="menu-item-has-children">
                     <a href="blog">Blog</a>
                     <ul>
