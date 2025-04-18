@@ -118,7 +118,7 @@
                 <div class="cs_header_contact_right">
                   <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Need help? Call us:</h3>
                   <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">E-Mail Us:</h3>
-                  <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Brochure:</h3>
+                  <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Our Brochure:</h3>
 
                 </div>
                 <div class="cs_header_contact_right">
@@ -128,7 +128,7 @@
                   <a href="mailto:tbl@tblindustrial.com">
                     <h3 class="text-white m-0 cs_fs_13" style="padding-top: 5px;">tbl@tblindustrial.com</h3>
                   </a>
-                  <a href="mailto:tbl@tblindustrial.com">
+                  <a href="/tbl/assets/TBL.pdf">
                     <h3 class="text-white m-0 cs_fs_13" style="padding-top: 5px;">Click Here</h3>
                   </a>
                 </div>
