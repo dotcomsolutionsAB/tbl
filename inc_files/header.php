@@ -128,7 +128,7 @@
                   <a href="mailto:tbl@tblindustrial.com">
                     <h3 class="text-white m-0 cs_fs_13" style="padding-top: 5px;">tbl@tblindustrial.com</h3>
                   </a>
-                  <a href="/tbl/assets/TBL.pdf">
+                  <a href="/assets/TBL.pdf">
                     <h3 class="text-white m-0 cs_fs_13" style="padding-top: 5px;">Click Here</h3>
                   </a>
                 </div>
