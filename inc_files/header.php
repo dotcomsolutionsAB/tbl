@@ -74,7 +74,6 @@
                 </ul>
               </li>
               <li><a href="contact.php">Contact Us</a></li>
-              <li><a href="contact.php">Brochure</a></li>
               <!-- <li class="menu-item-has-children">
                     <a href="blog">Blog</a>
                     <ul>
@@ -119,6 +118,7 @@
                 <div class="cs_header_contact_right">
                   <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Need help? Call us:</h3>
                   <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">E-Mail Us:</h3>
+                  <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">Download Brochure:</h3>
 
                 </div>
                 <div class="cs_header_contact_right">
@@ -127,6 +127,9 @@
                   </a>
                   <a href="mailto:tbl@tblindustrial.com">
                     <h3 class="text-white m-0 cs_fs_13" style="padding-top: 5px;">tbl@tblindustrial.com</h3>
+                  </a>
+                  <a href="mailto:tbl@tblindustrial.com">
+                    <h3 class="text-white m-0 cs_fs_13" style="padding-top: 5px;">Click Here</h3>
                   </a>
                 </div>
               </div>
