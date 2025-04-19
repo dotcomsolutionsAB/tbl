@@ -3,8 +3,8 @@
       width: 100%;
       overflow: hidden;
       background: #f9f9f9;
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
 
     .scroll-content {
