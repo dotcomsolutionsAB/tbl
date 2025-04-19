@@ -84,6 +84,10 @@
       </div>
     </div>
     <!-- End Animated Text -->
+     
+    <!-- Start Brands-->
+    <?php include("inc_files/home_brands.php"); ?>
+    <!-- End Brands-->
 
     <!-- Start Testimonial Section -->
     <!-- <?php include("inc_files/home_testimonial.php"); ?> -->
