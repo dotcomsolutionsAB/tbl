@@ -15,6 +15,8 @@
     .scroll-content img {
       width: 300px; /* Adjust width as needed */
       height: auto;
+      margin-left: 20px;
+      margin-right: 20px;
     }
     .brand_scroll{
         height: 100px;
