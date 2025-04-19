@@ -8,18 +8,23 @@
     }
 
     .scroll-content {
-      display: flex;
-      animation: scroll 15s linear infinite;
+    display: flex;
+    align-items: center;
+    animation: scroll 50s linear infinite;
+    width: fit-content;
+    gap: 15px;
     }
+
 
     .scroll-content img {
       width: 300px; /* Adjust width as needed */
       height: auto;
     }
-    .brand_scroll{
-        height: 100px;
-        width:300px;
+    .brand_scroll {
+    height: 100px;
+    width: 180px;
     }
+
     .brand_scroll img{
         height: 100%;
         width: 100%;
