@@ -24,7 +24,7 @@
         height: 100%;
         width: 100%;
         object-fit: contain;
-        padding: 5px
+        padding: 15px
     }
 
 
