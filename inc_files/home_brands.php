@@ -24,8 +24,6 @@
         height: 100%;
         width: 100%;
         object-fit: contain;
-        margin-right: 20px;
-        margin-left: 20px;
         padding: 5px
     }
 
