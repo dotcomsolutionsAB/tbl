@@ -18,7 +18,7 @@
       margin-right: 20px;
     }
     .brand_scroll{
-        height: 150px;
+        height: 100px;
         width:300px;
     }
     .brand_scroll img{
