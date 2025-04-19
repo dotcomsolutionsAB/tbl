@@ -9,7 +9,7 @@
 
     .scroll-content {
       display: flex;
-      animation: scroll 5s linear infinite;
+      animation: scroll 15s linear infinite;
     }
 
     .scroll-content img {
