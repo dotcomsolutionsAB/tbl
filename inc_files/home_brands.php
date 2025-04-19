@@ -31,7 +31,7 @@
 
   <div class="scroll-container">
     <div class="scroll-content">
-      <img src="/assets/BSRM.jpg" alt="Image 1" />
+      <img src="/assets/BSRM.png" alt="Image 1" />
       <img src="image2.jpg" alt="Image 2" />
       <img src="image3.jpg" alt="Image 3" />
       <img src="image1.jpg" alt="Image 1 Duplicate" />
