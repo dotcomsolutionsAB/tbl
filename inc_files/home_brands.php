@@ -3,8 +3,8 @@
       width: 100%;
       overflow: hidden;
       background: #f9f9f9;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 40px;
+      padding-bottom: 40px;
     }
 
     .scroll-content {
@@ -31,7 +31,7 @@
 
   <div class="scroll-container">
     <div class="scroll-content">
-      <img src="/assets/img/BSRM.jpg" alt="Image 1" />
+      <img src="/assets/BSRM.jpg" alt="Image 1" />
       <img src="image2.jpg" alt="Image 2" />
       <img src="image3.jpg" alt="Image 3" />
       <img src="image1.jpg" alt="Image 1 Duplicate" />
