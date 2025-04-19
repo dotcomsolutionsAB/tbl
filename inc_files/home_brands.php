@@ -26,9 +26,8 @@
         height: 100%;
         width: 100%;
         object-fit: contain;
-        margin-right: 50px;
-        margin-left: 50px;
-        padding: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
 
