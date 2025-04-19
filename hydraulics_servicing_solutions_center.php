@@ -60,6 +60,10 @@
      
     <!-- Start Content Section -->
     <style>
+
+      .img{
+        width: 100%
+      }
       .content-section {
         padding: 30px; /* Adds padding inside the section */
         margin: 50px auto; /* Adds margin above and below the section */
@@ -142,6 +146,9 @@
           <b>Piping, Flushing, Pickling, Degreasing, Passivating</b> of various Hydraulic, Lubrication, & Degreasing systems of the plant.
         </li>
       </ul>
+      <div class="img">
+            <img src="/assets/details.jpg" alt="Image 1">
+        </div>
     </div>
     <!-- End Content Section -->
      
