@@ -17,7 +17,6 @@
       height: auto;
       margin-right: 20px;
     }
-
     .brand_scroll{
         height: 150px;
         width:300px;
@@ -41,9 +40,15 @@
 <body>
 
   <div class="scroll-container">
-    <div class="brand_scroll">
-      <img src="/assets/BSRM.png" alt="Image 1" />
-      <!-- <img src="/assets/Unilever.png" alt="Image 2" /> -->
+    <div class="scroll-content">
+        <div class="brand_scroll">
+            <img src="/assets/BSRM.png" alt="Image 1">
+        </div>
+
+        <div class="brand_scroll">
+            <img src="/assets/Unilever.png" alt="Image 1">
+        </div>
+
       <img src="image3.jpg" alt="Image 3" />
       <img src="image1.jpg" alt="Image 1 Duplicate" />
       <img src="image2.jpg" alt="Image 2 Duplicate" />
