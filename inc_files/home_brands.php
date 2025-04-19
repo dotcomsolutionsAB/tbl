@@ -35,7 +35,7 @@
 
     @keyframes scroll {
       0% {
-        transform: translateX(100%);
+        transform: translateX(50%);
       }
       100% {
         transform: translateX(-100%);
