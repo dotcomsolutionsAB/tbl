@@ -42,22 +42,22 @@
   <div class="scroll-container">
     <div class="scroll-content">
         <div class="brand_scroll">
-            <img src="/assets/BSRM.png" alt="Image 1">
+            <img src="/assets/brands/BSRM.png" alt="Image 1">
         </div>
 
         <div class="brand_scroll">
-            <img src="/assets/Unilever.png" alt="Image 2">
+            <img src="/assets/brands/Unilever.png" alt="Image 2">
         </div>
 
         <div class="brand_scroll">
-            <img src="/assets/Lafarge Holcim.png" alt="Image 3">
+            <img src="/assets/brands/Lafarge Holcim.png" alt="Image 3">
+        </div>
+
+        <div class="brand_scroll">
+            <img src="/assets/brands/Nestlé.png.png" alt="Image 4">
         </div>
 
 
-      <img src="image3.jpg" alt="Image 3" />
-      <img src="image1.jpg" alt="Image 1 Duplicate" />
-      <img src="image2.jpg" alt="Image 2 Duplicate" />
-      <img src="image3.jpg" alt="Image 3 Duplicate" />
     </div>
   </div>
 
