@@ -10,7 +10,7 @@
     .scroll-content {
     display: flex;
     align-items: center;
-    animation: scroll 50s linear infinite;
+    animation: scroll 5s linear infinite;
     width: fit-content;
     gap: 15px;
     }
