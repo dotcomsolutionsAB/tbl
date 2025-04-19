@@ -54,7 +54,11 @@
         </div>
 
         <div class="brand_scroll">
-            <img src="/assets/brands/Nestlé.png.png" alt="Image 4">
+            <img src="/assets/brands/Nestlé.png" alt="Image 4">
+        </div>
+
+        <div class="brand_scroll">
+            <img src="/assets/brands/Pran.png" alt="Image 5">
         </div>
 
 
