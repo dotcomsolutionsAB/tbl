@@ -16,6 +16,7 @@
       width: 300px; /* Adjust width as needed */
       height: auto;
       margin-right: 50px;
+      padding: 30px;
     }
     .brand_scroll{
         height: 100px;
@@ -25,6 +26,9 @@
         height: 100%;
         width: 100%;
         object-fit: contain;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 30px;
     }
 
 
