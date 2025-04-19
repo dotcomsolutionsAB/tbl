@@ -18,6 +18,17 @@
       margin-right: 20px;
     }
 
+    .brand_scroll{
+        height: 150px;
+        width:300px;
+    }
+    .brand_scroll img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+
     @keyframes scroll {
       0% {
         transform: translateX(0%);
@@ -30,7 +41,7 @@
 <body>
 
   <div class="scroll-container">
-    <div class="scroll-content">
+    <div class="brand_scroll">
       <img src="/assets/BSRM.png" alt="Image 1" />
       <!-- <img src="/assets/Unilever.png" alt="Image 2" /> -->
       <img src="image3.jpg" alt="Image 3" />
