@@ -62,7 +62,7 @@
     <style>
 
       .img{
-        width: 100%
+        display: flex;
       }
       .content-section {
         padding: 30px; /* Adds padding inside the section */
@@ -147,7 +147,10 @@
         </li>
       </ul>
       <div class="img">
-            <img src="/assets/details.jpg" alt="Image 1">
+            <img src="/assets/Asset 3.png" alt="Image 1">
+        </div>
+        <div class="img">
+            <img src="/assets/Asset 4.png" alt="Image 2">
         </div>
     </div>
     <!-- End Content Section -->
