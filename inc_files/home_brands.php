@@ -46,11 +46,11 @@
         </div>
 
         <div class="brand_scroll">
-            <img src="/assets/Unilever.png" alt="Image 1">
+            <img src="/assets/Unilever.png" alt="Image 2">
         </div>
 
         <div class="brand_scroll">
-            <img src="/assets/Lafarge Holcim.png" alt="Image 1">
+            <img src="/assets/Lafarge Holcim.png" alt="Image 3">
         </div>
 
 
