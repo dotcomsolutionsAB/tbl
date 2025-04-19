@@ -62,6 +62,10 @@
     <?php include("inc_files/home_service.php"); ?>
     <!-- End Service Section -->
 
+    <!-- Start Brands-->
+        <?php include("inc_files/home_brands.php"); ?>
+    <!-- End Brands-->
+
     <!-- Animated Text -->
     <div class="cs_moving_wrap background-filled text-uppercase text-white d-flex align-items-center" data-src="assets/img/moving_text_shape.png">
       <div class="cs_moving_text cs_fs_30 cs_fs_lg_26 d-flex align-items-center text-nowrap">
@@ -84,10 +88,6 @@
       </div>
     </div>
     <!-- End Animated Text -->
-     
-    <!-- Start Brands-->
-    <?php include("inc_files/home_brands.php"); ?>
-    <!-- End Brands-->
 
     <!-- Start Testimonial Section -->
     <!-- <?php include("inc_files/home_testimonial.php"); ?> -->
