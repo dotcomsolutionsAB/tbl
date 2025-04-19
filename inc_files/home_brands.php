@@ -13,7 +13,7 @@
     }
 
     .scroll-content img {
-      width: 500px; /* Adjust width as needed */
+      width: 300px; /* Adjust width as needed */
       height: auto;
       margin-right: 20px;
     }
