@@ -159,7 +159,7 @@
     </div>
     
     <section>
-      <div class="container">
+      <div class="content-section">
         <!-- Ardent Engineers -->
         <div class="brand-block">
           <div class="b-img">
@@ -216,6 +216,13 @@
       .brand-description {
         color: #333;
         line-height: 1.6;
+        width: 70%;
+      }
+      .b-img{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .imggs{
         display: flex;
