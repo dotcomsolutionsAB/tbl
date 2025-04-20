@@ -60,10 +60,6 @@
      
     <!-- Start Content Section -->
     <style>
-
-      .img{
-        display: flex;
-      }
       .content-section {
         padding: 30px; /* Adds padding inside the section */
         margin: 50px auto; /* Adds margin above and below the section */
@@ -161,6 +157,20 @@
         </div>
       </div>
     </div>
+    <style>
+      .imggs{
+        display: flex;
+        gap: 20px;
+        width: 100%;
+      }
+      .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        margin: 10px;
+      }
+    </style>
     <!-- End Content Section -->
      
     <!-- Start Footer -->
