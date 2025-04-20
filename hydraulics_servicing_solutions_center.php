@@ -202,11 +202,11 @@
     <style>
       .brand-block {
         display: flex;
-        background-color: #fff;
+        /* background-color: #fff; */
         padding: 20px;
         margin-bottom: 20px;
         border-radius: 6px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        /* box-shadow: 0 2px 6px rgba(0,0,0,0.1); */
       }
       .brand-logo {
         width: 120px;
@@ -223,6 +223,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+      .b-img img{
+        margin-bottom: 0px !important;
       }
       .imggs{
         display: flex;
