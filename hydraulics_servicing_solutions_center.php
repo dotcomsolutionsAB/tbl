@@ -157,6 +157,42 @@
         </div>
       </div>
     </div>
+    <section>
+      <div class="container">
+
+        <!-- Ardent Engineers -->
+        <div class="brand-block">
+          <img src="https://example.com/ardent-logo.png" alt="Ardent Engineers Logo" class="brand-logo">
+          <div class="brand-description">
+            <strong>Supplier of Genuine parts</strong> for Concrete Pumps, Batching Plant and other Construction Machinery.
+            We also Refurbish and service Concrete Pumps. We also sell Refurbished Concrete Pumps, exported Parts and Refurbished Pumps to many countries.
+            Parts of Putzmeister n Schwing Stetter available.
+          </div>
+        </div>
+
+        <!-- Spicer Dana -->
+        <div class="brand-block">
+          <img src="https://example.com/spicer-logo.png" alt="Spicer Logo" class="brand-logo">
+          <div class="brand-description">
+            Spicer Dana Axles transmissions drive Shaft assemblies, end fittings, transaxles, electronic controls, universal joints,
+            Ring n pinion gearing, gear lubricant grease, OEM replacements, Forklift reach stickers, gantry crane, crawler cranes,
+            rough terrain crane, excavators, dozens of dumpers.
+          </div>
+        </div>
+
+        <!-- Huade -->
+        <div class="brand-block">
+          <img src="https://example.com/huade-logo.png" alt="Huade Logo" class="brand-logo">
+          <div class="brand-description">
+            THM HUADE specialize in manufacturing a comprehensive range of hydraulic components for industrial n mobile sectors including
+            axial piston pumps/motors, valves, gear pumps, servo motors, track drives, transit mixer solutions, and power packs.
+            THM products are crafted to provide reliable performance and are compatible with top brands like Rexroth, Eaton, Atos,
+            Yuken, Vickers, and Danfoss.
+          </div>
+        </div>
+
+      </div>
+    </section>
     <style>
       .imggs{
         display: flex;
