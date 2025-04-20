@@ -146,12 +146,20 @@
           <b>Piping, Flushing, Pickling, Degreasing, Passivating</b> of various Hydraulic, Lubrication, & Degreasing systems of the plant.
         </li>
       </ul>
-      <div class="img">
-            <img src="/assets/Asset 3.png" alt="Image 1">
+      <div class="imggs">
+        <div class="img">
+            <img src="/assets/Asset 2.png" alt="Image 1">
         </div>
         <div class="img">
-            <img src="/assets/Asset 4.png" alt="Image 2">
+            <img src="/assets/Asset 3.png" alt="Image 2">
         </div>
+        <div class="img">
+          <img src="/assets/Asset 4.png" alt="Image 1">
+        </div>
+        <div class="img">
+            <img src="/assets/Asset 5.png" alt="Image 2">
+        </div>
+      </div>
     </div>
     <!-- End Content Section -->
      
