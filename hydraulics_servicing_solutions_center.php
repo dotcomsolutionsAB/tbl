@@ -163,7 +163,7 @@
         <!-- Ardent Engineers -->
         <div class="brand-block">
           <div class="b-img">
-            <img src="https://example.com/ardent-logo.png" alt="Ardent Engineers Logo" class="brand-logo">
+            <img src="/assets/ardent.png" alt="Ardent Engineers Logo" class="brand-logo">
           </div>
           <div class="brand-description">
             <strong>Supplier of Genuine parts</strong> for Concrete Pumps, Batching Plant and other Construction Machinery.
@@ -175,7 +175,7 @@
         <!-- Spicer Dana -->
         <div class="brand-block">
           <div class="b-img">
-            <img src="https://example.com/spicer-logo.png" alt="Spicer Logo" class="brand-logo">
+            <img src="/assets/spicer.png" alt="Spicer Logo" class="brand-logo">
           </div>
           <div class="brand-description">
             Spicer Dana Axles transmissions drive Shaft assemblies, end fittings, transaxles, electronic controls, universal joints,
@@ -187,7 +187,7 @@
         <!-- Huade -->
         <div class="brand-block">
           <div class="b-img">
-            <img src="https://example.com/huade-logo.png" alt="Huade Logo" class="brand-logo">
+            <img src="/assets/huade.png" alt="Huade Logo" class="brand-logo">
           </div>
           <div class="brand-description">
             THM HUADE specialize in manufacturing a comprehensive range of hydraulic components for industrial n mobile sectors including
