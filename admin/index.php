@@ -65,7 +65,6 @@
                     ?>
                         <tr>
                             <td><?= $sl; ?></td>
-                            <td><?= $brand['id'] ?></td>
                             <td><?= htmlspecialchars($brand['name']) ?></td>
                             <td><?= htmlspecialchars($brand['category_name']) ?></td>
                             <td><?= htmlspecialchars($brand['description']) ?></td>
