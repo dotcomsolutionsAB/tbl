@@ -69,7 +69,14 @@
                             <td><?= htmlspecialchars($brand['name']) ?></td>
                             <td><?= htmlspecialchars($brand['category_name']) ?></td>
                             <td><?= htmlspecialchars($brand['description']) ?></td>
-                            <td><a href="<?= htmlspecialchars($brand['url_link']) ?>" target="_blank">Link</a></td>
+                            <td>
+                                <?php if (!empty($brand['url_link']) && $brand['url_link'] !== '#'): ?>
+                                    <a href="<?= htmlspecialchars($brand['url_link']) ?>" target="_blank">Link</a>
+                                <?php else: ?>
+                                    <span>No Link</span>
+                                <?php endif; ?>
+                            </td>
+
                             <td>
                                 <?php if (!empty($brand['image_name'])): ?>
                                     <img src="../uploads/images/<?= htmlspecialchars($brand['image_name']) ?>" alt="Photo" style="width: 50px; height: 50px;">
