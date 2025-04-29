@@ -60,8 +60,9 @@
                 </thead>
                 <tbody>
                     <?php 
-                        $sl=1;
+                        
                         foreach ($brands as $brand) { 
+                            $sl=1;
                     ?>
                         <tr>
                             <td><?= $sl; ?></td>
@@ -84,8 +85,9 @@
                             </td>
                         </tr>
                     <?php 
-                    } 
                     $sl=$sl+1;
+                    } 
+                    
                     ?>
                 </tbody>
             </table>
