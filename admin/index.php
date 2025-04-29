@@ -48,6 +48,7 @@
             <table class="table table-bordered">
                 <thead>
                     <tr>
+                        <th>Sl No</th>
                         <th>ID</th>
                         <th>Name</th>
                         <th>Category</th>
@@ -58,8 +59,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach ($brands as $brand) { ?>
+                    <?php 
+                        $sl=1;
+                        foreach ($brands as $brand) { 
+                    ?>
                         <tr>
+                            <td><?= $sl; ?></td>
                             <td><?= $brand['id'] ?></td>
                             <td><?= htmlspecialchars($brand['name']) ?></td>
                             <td><?= htmlspecialchars($brand['category_name']) ?></td>
@@ -78,7 +83,10 @@
                                 <button class="btn btn-info btn-sm" onclick="showUploadPopup(<?= $brand['id'] ?>)">Upload</button>
                             </td>
                         </tr>
-                    <?php } ?>
+                    <?php 
+                    } 
+                    $sl++;
+                    ?>
                 </tbody>
             </table>
         </div>
