@@ -4,7 +4,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Database connection
-$conn = new mysqli('localhost', 'tbl_', '2hNVbQz1w&^2mgoy', 'tbl_');  //live
+$conn = new mysqli('localhost', 'tbl_', '5bs&4z5U5', 'tbl_');  //live
 
 // $conn = new mysqli('localhost', 'root', '', 'tbl_');  //local
 if ($conn->connect_error) {
