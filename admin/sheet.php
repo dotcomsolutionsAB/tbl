@@ -12,11 +12,7 @@
     <div class="container">
         <a href="index.php" class="btn btn-primary">Back</a>
         <?php
-            // Database configuration
-            $host = 'localhost';
-            $dbname = 'tbl_';
-            $username = 'tbl_';
-            $password = 'Jzz4Qp1e5Za1k@can';
+            require('../config.php'); // Go up one level
             
             // Create a database connection
             $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
