@@ -23,7 +23,7 @@
   <body>
 
       <!-- Start Header Section -->
-    <?php include("inc_files/header.php"); ?>
+    <?php include("header.php"); ?>
       <!-- End Header Section -->
        
     <!-- Start Hero -->

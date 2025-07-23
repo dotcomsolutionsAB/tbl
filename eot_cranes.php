@@ -29,7 +29,7 @@
       </div>
     </div> -->
       <!-- Start Header Section -->
-    <?php include("inc_files/header2.php"); ?>
+    <?php include("header2.php"); ?>
       <!-- End Header Section -->
         <!-- Start Page Header -->
     <section class="cs_page_header position-relative background-filled d-flex align-items-center justify-content-between" data-src="assets/img/page_header_1.jpg">

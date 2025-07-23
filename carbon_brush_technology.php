@@ -46,7 +46,7 @@
     </div> -->
 
       <!-- Start Header Section -->
-    <?php include("inc_files/header2.php"); ?>
+    <?php include("header2.php"); ?>
       <!-- End Header Section -->
 
     <!-- Start Page Header -->
