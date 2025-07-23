@@ -1,8 +1,8 @@
 <?php
     // Database connection
-$conn = new mysqli('localhost', 'tbl_', '5bs&4z5U5', 'tbl_');  //live
+    $conn = new mysqli('localhost', 'tbl_', '5bs&4z5U5', 'tbl_');  //live
 
-// $conn = new mysqli('localhost', 'root', '', 'tbl_');  //local
+    // $conn = new mysqli('localhost', 'root', '', 'tbl_');  //local
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
