@@ -1,6 +1,6 @@
 <?php
 // Database connection
-$conn = new mysqli('127.0.0.1', 'tbl_', '5bs&4z5U5', 'tbl_');  //live
+$conn = new mysqli('127.0.0.1', 'tbl_', '2?A18bzc4', 'tbl_');  //live
 
 // $conn = new mysqli('localhost', 'root', '', 'tbl_');  //local
 if ($conn->connect_error) {

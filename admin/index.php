@@ -1,6 +1,10 @@
     <?php
         // Database configuration
-        require "../config.php";
+        // require "../config.php";
+        $host = '127.0.0.1';
+        $dbname = 'tbl_';
+        $username = 'tbl_';
+        $password = '2?A18bzc4';
 
         // Create a database connection
         $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
