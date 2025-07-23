@@ -1,4 +1,11 @@
     <?php
+
+        error_reporting(E_ALL);
+        // Display errors on the screen
+        ini_set('display_errors', 1);
+        // Log errors to a file (optional)
+        ini_set('log_errors', 1);
+        
         // Database configuration
         // require "../config.php";
         $host = '127.0.0.1';
