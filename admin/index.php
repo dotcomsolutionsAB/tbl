@@ -346,7 +346,7 @@
                         $newImageId = $conn->lastInsertId();
             
                         // ✅ Set domain and image URL
-                        $domain = 'https://abc.com';
+                        $domain = 'https://tblindustrial.com';
                         $photoUrl = $domain . '/uploads/images/' . $newFileName;
 
                         // Step 9: Update brands table with new image_id
